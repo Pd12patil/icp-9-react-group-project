@@ -1,0 +1,34 @@
+[
+    {
+        "id": 301,
+        "name": "Cashew Nuts",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Cashew_Nuts.jpg?v=1738127330&width=1000",
+        "price": "205.00",
+        "newprice": "174.25 for co-Op Members*",
+        "description": "ndulge in the rich, creamy flavor of our premium Cashew Nuts, also known as Kaju. Sourced from the finest farms, our cashews are carefully selected to ensure the highest quality"
+    },
+    {
+        "id": 302,
+        "name": "Organic Raisins",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Raisins_a693e78c-5a92-4ecf-9e1d-4078c2bbad9d.jpg?v=1738219565&width=1000",
+        "price": "100.00",
+        "newprice": "85.00 for co-Op Members*",
+        "description": "Discover the natural sweetness and health benefits of Raisins, also known as Organic Raisins or Kismis. These dried grapes are carefully selected and processed to retain their rich flavor, chewy"
+    },
+    {
+        "id": 303,
+        "name": "Organic Almonds",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Almond_94de8f3d-564f-4d0a-8bf7-5f1bb7bd7019.jpg?v=1738056433&width=1000",
+        "price": "210.00",
+        "newprice": "174.50 for co-Op Members*",
+        "description": "Uncover the wholesome benefits of our premium Almonds, also known as badam. These raw almonds are carefully sourced and organically grown to ensure maximum purity and nutritional value. Rich in"
+    },
+    {
+        "id": 304,
+        "name": "Organic Walnut",
+        "pimage": "https://organicmandya.com/cdn/shop/files/walnut_2afc2785-0b14-4ab3-aea9-2bb1bde3e3b8.jpg?v=1738129833&width=1000",
+        "price": "275.00",
+        "newprice": "233.00 for co-Op Members*",
+        "description": "Walnuts, also known as Akhrot, are a delicious and nutritious nut recognized for their distinctive shape and rich, buttery flavor. Organic walnuts are grown without the use of synthetic pesticides"
+    }
+]

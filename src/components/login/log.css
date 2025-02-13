@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.login-container {
+    max-width: 410px;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login-container .form-title {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2.37rem;
+    font-weight: 900;
+    margin-bottom: 1.87rem;
+}
+
+.login-container .social-login {
+    display: flex;
+    gap: 1.31rem;
+    justify-content: center; /* Center social buttons */
+}
+
+.social-login .social-button {
+    display: flex;
+    gap: 0.81rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.75rem 1.2rem;
+    align-items: center;
+    border-radius: 0.31rem;
+    background: #f9f8ff;
+    border: 1px solid #14446d;
+    margin-bottom: 1rem;
+    transition: 0.3s ease;
+}
+
+.social-login .social-button:hover {
+    background: #f1eff9;
+    border-color: #012747;
+}
+
+.social-login .social-button .social-icon {
+    width: 25px;
+    mix-blend-mode: multiply;
+}
+
+.login-container .separator {
+    margin: 1.5rem 0;
+    text-align: center;
+    position: relative;
+}
+
+.login-container .separator span {
+    background: #fff;
+    padding: 0 0.9rem;
+    font-size: 1.06rem;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+}
+
+.login-container .separator::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background: #012747;
+}
+
+.login-form .input-wrapper {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form .input-wrapper .input-field {
+    width: 100%;
+    height: 54px;
+    outline: none;
+    font-size: 1.06rem;
+    border-radius: 0.31rem;
+    border: 1px solid #012747;
+    padding: 0 1.25rem 0 3.12rem;
+    transition: 0.2s ease;
+}
+
+.login-form .input-wrapper .input-field:hover {
+    color: rgb(3, 3, 195);
+}
+
+.login-form .input-wrapper .input-field:focus {
+    color: #012747;
+}
+
+.login-form .input-wrapper .input-field::placeholder {
+    color: #838486;
+}
+
+.login-form .input-wrapper i {
+    color: #022748;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    pointer-events: none;
+}
+
+.login-form .input-wrapper .input-field:focus ~ i {
+    color: #012747;
+}
+
+.login-form .input-wrapper .eye-icon {
+    display: none; /* Initially hidden */
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.login-form .input-wrapper .input-field:valid ~ i.eye-icon {
+    display: inline-block;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.login-form .forgot-pass-link {
+    display: block;
+    width: fit-content;
+    margin-top: -0.46rem;
+}
+
+.login-form .login-button {
+    width: 100%;
+    height: 54px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background: #022748;
+    margin-top: 2.19rem;
+    border-radius: 0.31rem;
+    transition: 0.2s ease;
+}
+
+.login-form .login-button:hover {
+    background-color: #14446d;
+}
+
+.login-container .signup-text {
+    text-align: center;
+    font-weight: 500;
+    margin: 1.75rem 0 0.31rem;
+}
+
+.login-container a {
+    color: blue;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+/* Adjustments for mobile responsiveness */
+@media (max-width: 480px) {
+    .login-container {
+        padding: 1rem;
+        max-width: 100%;
+    }
+    
+    .login-container .form-title {
+        font-size: 1.87rem;
+    }
+
+    /* .social-login {
+        flex-direction: column;
+        gap: 0.8rem;
+    } */
+
+    .login-form .login-button {
+        font-size: 1.3rem;
+    }
+}
