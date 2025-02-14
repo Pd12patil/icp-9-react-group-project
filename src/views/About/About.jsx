@@ -77,7 +77,64 @@ We believe in purity, sustainability, and quality, ensuring that every product y
           </div>
         </div>
       </div>
-     
+      <section className="px-6 md:px-16 lg:px-24 py-12 bg-gray-100">
+  <h2 className="text-3xl font-bold text-center mb-8 text-green-800">What We Provide?</h2>
+
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center">
+      <img src={why1} alt="Delivering Good Health" className="w-full h-80 object-cover rounded-md mb-4"/>
+      <h3 className="text-xl font-semibold mb-2 text-green-700">Delivering Good Health</h3>
+      <p className="text-gray-700 text-center">
+        At <strong>Green Organic Farm</strong>, we are committed to delivering good health through organically grown products.
+        Free from harmful chemicals and rich in essential nutrients, our produce supports a healthier lifestyle.
+      </p>
+    </div>
+
+    <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center">
+      <img src={why2} alt="Empowering Farmers" className="w-full h-80 object-cover rounded-md mb-4"/>
+      <h3 className="text-xl font-semibold mb-2 text-green-700">Empowering Farmers with Fair Pricing</h3>
+      <p className="text-gray-700 text-center">
+        We believe in fair pricing for farmers, ensuring they are rewarded justly for their dedication to sustainable agriculture. 
+        By offering them a fair price, we empower them to continue growing organic crops and improve their livelihoods.
+      </p>
+    </div>
+
+    <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center">
+      <img src={why3} alt="Protecting Our Planet" className="w-full h-80 object-content rounded-md mb-4"/>
+      <h3 className="text-xl font-semibold mb-2 text-green-700">Nurturing Nature, Protecting Our Planet</h3>
+      <p className="text-gray-700 text-center">
+        Protecting Mother Earth is at the heart of what we do. Our organic farming practices restore soil health, reduce water pollution, 
+        and minimize harmful chemicals, ensuring a sustainable and balanced ecosystem.
+      </p>
+    </div>
+  </div>
+
+ 
+  <div className="mt-12 bg-green-700 text-white py-10 px-4 rounded-lg text-center">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div>
+        <h3 className="text-3xl font-bold">9+</h3>
+        <p>Glorious Years</p>
+      </div>
+      <div>
+        <h3 className="text-3xl font-bold">12000+</h3>
+        <p>Farmers</p>
+      </div>
+      <div>
+        <h3 className="text-3xl font-bold">100K+</h3>
+        <p>Happy Customers</p>
+      </div>
+      <div>
+        <h3 className="text-3xl font-bold">20000+</h3>
+        <p>Acres of Farming Lands</p>
+      </div>
+      <div className="col-span-2 md:col-span-1">
+        <h3 className="text-3xl font-bold">200+</h3>
+        <p>Workshops Completed</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
