@@ -14,7 +14,7 @@ import { Link } from 'react-router';
 import { headerdata } from '../../config/config';
 import { Toaster } from 'react-hot-toast';
 // import brandIcon from "./../../../src/images/nav/logo2.png";
-import brandIcon from "./../../assets/react.svg"
+import brandIcon from "./../../assets/green-organic.png"
 import "./Navbar.css"
 import { Menu } from "lucide-react";
 import { ShoppingCart } from 'lucide-react';

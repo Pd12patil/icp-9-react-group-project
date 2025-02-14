@@ -13,7 +13,7 @@ import Footer from './components/Footer/Footer.jsx';
 import Login from './components/login/Login.jsx';
 import Signup from './components/login/Signup.jsx';
 import CartPage from './components/CartPage/CartPage.jsx';
-
+import CheckoutPage from './components/CheckoutPage/CheckoutPage.jsx';
 
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
@@ -30,6 +30,7 @@ createRoot(document.getElementById('root')).render(
     <Route path="/footer" element={<Footer/>}/>
     <Route path="/login" element={<Login/>}/>
     <Route path="/signup" element={<Signup/>}/>
+    <Route path="/checkout" element={<CheckoutPage/>}/>
     <Route path="/cart" element={<CartPage />} /> {/* Cart page */}
   </Routes>
   </BrowserRouter>

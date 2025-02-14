@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import toast,{Toaster} from 'react-hot-toast';
 import Navbar from "../Navbar/Navbar";
 import StaplesCard from "./StaplesCard";
 import StaplesData from "../../config/staples.json"; // Your JSON file
 import { IndianRupee, ShoppingCart, Plus, Minus } from "lucide-react";
+// import { Toaster } from 'react-hot-toast';
 
 function StaplesC() {
 
@@ -26,30 +28,11 @@ function StaplesC() {
           ? { ...cartItem, quantity: cartItem.quantity + 1 } 
           : cartItem
       ));
+      toast.success("Product Added Success");
     } else {
 
       setCart([...cart, { ...item, quantity: 1 }]);
     }
-  };
-
-  const removeFromCart = (id) => {
-    setCart(cart.filter(item => item.id !== id));
-  };
-
-  const incrementQuantity = (id) => {
-    setCart(cart.map(item => 
-      item.id === id 
-        ? { ...item, quantity: item.quantity + 1 } 
-        : item
-    ));
-  };
-
-  const decrementQuantity = (id) => {
-    setCart(cart.map(item => 
-      item.id === id && item.quantity > 1 
-        ? { ...item, quantity: item.quantity - 1 } 
-        : item
-    ));
   };
 
   return (
@@ -74,6 +57,7 @@ function StaplesC() {
           );
         })}
       </div>
+      <Toaster/>
     </div>
   );
 }

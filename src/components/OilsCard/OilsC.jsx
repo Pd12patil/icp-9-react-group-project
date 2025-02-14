@@ -2,6 +2,7 @@ import oilsData from "../../config/oilsc.json"
 import Navbar from "../Navbar/Navbar";
 import OilsCard from "./OilsCard";
 import React, { useState, useEffect } from 'react';
+import toast,{Toaster} from 'react-hot-toast';
 
 function OilsC() {
   const getCartFromLocalStorage = () => {
@@ -24,31 +25,14 @@ function OilsC() {
           ? { ...cartItem, quantity: cartItem.quantity + 1 } 
           : cartItem
       ));
+      toast.success("Product Added Success");
     } else {
 
       setCart([...cart, { ...item, quantity: 1 }]);
     }
   };
 
-  const removeFromCart = (id) => {
-    setCart(cart.filter(item => item.id !== id));
-  };
-
-  const incrementQuantity = (id) => {
-    setCart(cart.map(item => 
-      item.id === id 
-        ? { ...item, quantity: item.quantity + 1 } 
-        : item
-    ));
-  };
-
-  const decrementQuantity = (id) => {
-    setCart(cart.map(item => 
-      item.id === id && item.quantity > 1 
-        ? { ...item, quantity: item.quantity - 1 } 
-        : item
-    ));
-  };
+ 
   return (
     
     <div>
@@ -72,6 +56,7 @@ function OilsC() {
         );
       })}
     </div>
+    <Toaster/>
   </div>
   )
 }

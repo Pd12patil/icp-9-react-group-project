@@ -1,5 +1,5 @@
 import React from 'react';
-import re from "./../../assets/react.svg"
+import re from "./../../assets/green-organic.png"
 import { Facebook, Twitter, Instagram } from 'lucide-react'; // Import social media icons from lucide-react
 
 const Footer = () => {
@@ -24,7 +24,7 @@ const Footer = () => {
           <img
             src={re} // Replace with your logo URL
             alt="Company Logo"
-            className="h-16 mx-auto"
+            className="h-[100px] mx-auto"
           />
         </div>
 
