@@ -83,7 +83,43 @@ We believe in purity, sustainability, and quality, ensuring that every product y
 
 
 
+<section className="px-6 md:px-16 lg:px-24 py-12 ">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        
+        <div className="text-center">
+          <h2 className="text-2xl font-bold mb-4">Our Social Impact</h2>
+          <p className="text-gray-600">
+            Green Organic Farm is a social enterprise dedicated to revolutionizing traditional farming by promoting 
+            sustainable, chemical-free agriculture. We collaborate closely with local farmers to encourage organic 
+            cultivation methods, ensuring a healthier future for both people and the planet.
+          </p>
+        </div>
 
+       
+        <div className="text-center">
+          <h2 className="text-2xl font-bold mb-4">Our Goal</h2>
+          <p className="text-gray-600">
+            Our mission is threefold: to support farmers in achieving a sustainable livelihood, to provide 100% 
+            natural organic food to consumers, and to contribute to a cleaner environment. We strive to improve 
+            soil health, enhance biodiversity, and reduce water pollution. Choosing our organic products means 
+            actively participating in the preservation of nature for future generations.
+          </p>
+        </div>
+
+        {/* Why Green Organic Farm? */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold mb-4">Why Green Organic Farm?</h2>
+          <p className="text-gray-600">
+            At Green Organic Farm, we are committed to delivering carefully selected, high-quality organic produce. 
+            Through our dedication to purity, sustainability, and fair pricing, we empower farmers while ensuring 
+            the best for consumers. Our approach fosters eco-friendly farming, ethical trade, and a healthier 
+            lifestyle—creating a positive impact on both agriculture and the environment.
+          </p>
+        </div>
+
+      </div>
+    </section>
 
 
 
