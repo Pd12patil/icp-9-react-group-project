@@ -1,3 +1,4 @@
+
 const headerdata = [{
     to: "/",
     name: "Home",
@@ -14,6 +15,10 @@ const headerdata = [{
     to: "/login",
     name: "Login"
   },
+  // {
+  //   to: "/cart",
+  //   name: "Cart"
+  // },
   
   
   ]

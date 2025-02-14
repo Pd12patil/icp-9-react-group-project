@@ -5,8 +5,8 @@ import bg2 from "./assets/bg2.webp";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Product from './views/Product/Product.jsx';
 import Footer from "./components/Footer/Footer.jsx";
-import CardC from "./components/CartComponent/CardC.jsx";
-// ImageWithText Component
+
+
 const ImageWithText = ({ imageSrc, text, textColor }) => {
   return (
     <div className="relative w-full h-[300px] md:h-[500px] flex justify-center mb-4 mt-2">
@@ -52,17 +52,17 @@ const App = () => {
 
   // Text colors for each image
   const textColors = [
-    "text-white", // Blue color for the first image
-    "text-green-700", // Red color for the second image
+    "text-white", 
+    "text-green-700", 
   ];
 
-  // Additional text content for more information
+  
   const additionalTexts = [
     "Join the COSO for wholesale prices on organic product.",
     "Unleash the power of tomorrow's technology today.",
   ];
 
-  // State to track the current image index
+  
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -75,9 +75,21 @@ const App = () => {
     return () => clearInterval(intervalId);
   }, []); // Empty dependency array means this effect runs only once
 
+
+
+
+  const getCartFromLocalStorage = () => {
+    const storedCart = localStorage.getItem('cart');
+    return storedCart ? JSON.parse(storedCart) : [];
+  };
+
+  const [cart, setCart] = useState(getCartFromLocalStorage());
+
+
+
   return (
     <>
-      <Navbar/>
+      <Navbar cartCount={cart.length}/>
       <div className='flex flex-col items-center relative'>
         {/* Image with text */}
         <ImageWithText
@@ -92,7 +104,7 @@ const App = () => {
         />
 
       </div>
-      <CardC/>
+      {/* <CardC/> */}
       <Product/>
       {/* <div className="relative bg-cover bg-center h-[450px] w-[450px] md:h-[500px] md:w-[1550px] rounded-4xl" style={{ margin: "10px auto" ,backgroundImage: "url('https://organicmandya.com/cdn/shop/files/a954ba231cb5304f081ed1be7fe36efb.jpg?v=1724066706&width=1584')" }}>
         <div className="absolute top-50 md:left-110 left-60 transform -translate-x-1/2 -translate-y-1/2 text-green-900 font-serif ">
