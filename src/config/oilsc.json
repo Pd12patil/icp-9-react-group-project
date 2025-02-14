@@ -4,7 +4,7 @@
         "name": "Cold Pressed - Coconut Oil",
         "pimage": "https://organicmandya.com/cdn/shop/files/Coconut_Oil_V2_r2_568c7721-800b-480b-a633-24499d2fdcd4.jpg?v=1720680463&width=1000",
         "price": "110.00",
-        "newprice": "93.50 for co-Op Members*",
+        "newprice": "93.50 ",
         "description": "Savour the natural goodness of our Cold Pressed Coconut Oil, a pure organic oil that captures the essence of fresh coconuts. Extracted using traditional cold-pressing methods, this coconut oil retains"
     },
     {
@@ -12,7 +12,7 @@
         "name": "Cold Pressed - Groundnut Oil",
         "pimage": "https://organicmandya.com/cdn/shop/files/Groundnut_Oil_V2_v1_1.jpg?v=1728551792&width=1500",
         "price": "493.00",
-        "newprice": "419.05 for co-Op Members*",
+        "newprice": "419.05",
         "description": "Embrace the purity and rich flavor of Cold Pressed Groundnut Oil, an excellent choice for health-conscious cooking. Our groundnut oil is extracted using the traditional cold pressing method, ensuring that"
     },
     {
@@ -20,7 +20,7 @@
         "name": "Sunflower Oil - Cold Pressed",
         "pimage": "https://organicmandya.com/cdn/shop/files/Sunflower_Oil_V2_v1_7527748c-12f1-4877-aed9-2a69c6654773.jpg?v=1728552009&width=1000",
         "price": "440.00",
-        "newprice": "374.00 for co-Op Members*",
+        "newprice": "374.00",
         "description": "Cold Pressed Sunflower Oil is a pure and natural cooking oil extracted from sunflower seeds using a traditional cold pressing method, which preserves its nutritional integrity and rich flavor. This"
     },
     {
@@ -28,7 +28,7 @@
         "name": "Castor Oil",
         "pimage": "https://organicmandya.com/cdn/shop/files/Castor_Oil_v2_4a522e11-6de4-45dc-9e4e-3244a9ab7bc7.jpg?v=1720597225&width=1000",
         "price": "120.00",
-        "newprice": "102.00 for co-Op Members*",
+        "newprice": "102.00",
         "description": "Castor Oil, also known as Arandi Ka Tel, is a versatile and natural oil derived from the seeds of the castor plant. Renowned for its numerous health and beauty benefits,"
     }
 ]

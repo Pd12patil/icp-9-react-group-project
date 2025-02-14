@@ -34,6 +34,7 @@ function CheckoutPage() {
     e.preventDefault();
     
     setOrderPlaced(true);
+    alert("place orfer is successfully");
   };
 
   
@@ -82,12 +83,12 @@ function CheckoutPage() {
                     cart.map((item, index) => (
                       <tr key={index} className="border-b">
                         <td className="px-4 py-2 flex items-center">
-                          <img src={item.pimage} alt={item.name} className="w-12 h-12 object-contain mr-4" />
+                          <img src={item.pimage} alt={item.name} className="w-14 h-14 object-contain mr-4" />
                           <span className="">{item.name}</span>
                         </td>
                 
                         <td className="px-4 py-2">
-                          <span className="flex"><IndianRupee /> {item.price}</span>
+                          <span className="flex"><IndianRupee /> {item.newprice}</span>
                         </td>
                         <td className="px-4 py-2 text-center">{item.quantity}</td>
                         <td className="px-4 py-2">

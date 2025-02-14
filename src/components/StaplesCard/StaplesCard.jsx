@@ -7,7 +7,7 @@ export default function StaplesCard({ id, name, pimage, price, newprice, descrip
         <img src={pimage} alt={name} className="h-[200px] block mx-auto w-full object-contain md:my-4 md:rounded-lg mix-blend-darken"/>
         <h1 className='text-xl font-semibold mb-4'>{name}</h1>
         <div className='flex flex-col'>
-            <p className="flex flex-row mb-2"><IndianRupee /><span className='font-bold'>{price}</span></p>
+        <del><p className="flex flex-row mb-2"><IndianRupee /><span className='font-bold text-gray-600'>{price}</span></p></del>
             <p className="flex flex-row text-green-600 bg-green-50"><IndianRupee /><span className='font-bold'>{newprice}</span></p>
         </div>
         <button 
