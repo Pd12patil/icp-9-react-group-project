@@ -6,7 +6,7 @@ import Footer from "./../../components/Footer/Footer";
 
 import React, { useState, useEffect, useCallback } from "react";
 import { FaArrowUp, FaWhatsapp } from "react-icons/fa";
-import Navbar from "../../components/Navbar/navbar1";
+import Navbar from "./../../components/Navbar/navbar1";
 
 
 import img1 from "./../../assets/aboutimg/mainimg.webp";
