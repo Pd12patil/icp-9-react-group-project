@@ -125,7 +125,7 @@ function CartPage() {
             
           </div>
         ) : (
-          <p className="text-center mt-6">Your cart is empty.</p>
+          <p className="text-2xl text-center mt-6">Your cart is empty.</p>
         )}
         {/* </div> */}
         {/* Total Price and Checkout Button */}

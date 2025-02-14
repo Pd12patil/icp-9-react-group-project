@@ -51,9 +51,10 @@ const Footer = () => {
         </div>
 
         <div className="mt-6 text-sm">
-          <p>&copy; 2025 Your Company. All rights reserved.</p>
+          <p className=" text-lg md:text-2xl">&copy; 2025 Green Organic Farm. All rights reserved.</p>
         </div>
       </div>
+      
     </footer>
   );
 };

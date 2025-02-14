@@ -6,6 +6,7 @@ import Appicon from './Appicon.jsx';
 import './Login.css';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer.jsx';
+import { Link } from 'react-router';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -103,7 +104,7 @@ const Login = () => {
 
       <Appicon />
       <p className="signup-text">
-        Don't have an account? <a href="/signup">Signup now</a>
+        Don't have an account? <Link to="/signup">Signup now</Link>
       </p>
       <Toaster />
     </div>
