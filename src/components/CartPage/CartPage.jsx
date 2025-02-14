@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { IndianRupee, Minus, Plus, ShoppingCart, Trash } from 'lucide-react';
-
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 function CartPage() {
   
   const getCartFromLocalStorage = () => {
@@ -41,15 +42,17 @@ function CartPage() {
   const totalPrice = calculateTotalPrice();
 
   return (
-    <div className="mt-10 mx-10 absolute top-10 right-5">
-      <h2 className="text-2xl font-semibold">Your Cart</h2>
+    <>
+    <Navbar cartCount={cart.length}/>
+    <div className="">
+      <h2 className="mt-5 text-4xl font-semibold text-center">Your Cart</h2>
       {cart.length > 0 ? (
-        <div className="mt-4">
+        <div className="md:flex justify-around">
           <ul>
             {cart.map((item, index) => (
-              <li key={index} className="flex justify-between items-center p-2 border-b border-gray-300 md:w-[500px] md:h-[160px]">
+              <li key={index} className="md:flex md:justify-between items-center p-2 border-b border-gray-300 md:w-[600px] md:h-[180px]">
                 <div className="flex items-center">
-                <span><img src={item.pimage} alt={item.name} className="h-[200px] block mx-auto w-full object-contain md:my-4 md:rounded-lg mix-blend-darken"/></span>
+                <span><img src={item.pimage} alt={item.name} className="h-[150px] block mx-auto w-full object-contain md:my-4 md:rounded-lg mix-blend-darken"/></span>
                   <span>{item.name}</span>
                   <span className="mx-4 flex text-gray-600"><IndianRupee /> {item.price}</span>
                 </div>
@@ -77,7 +80,8 @@ function CartPage() {
               </li>
             ))}
           </ul>
-
+          
+          <div className='my-10 p-4 h-[160px] w-[300px] md:w-[500px] border-1 border-gray-200 rounded-lg'>
           <div className="m-6 flex font-semibold">
             <span className='text-2xl'>Total Price: </span>
             <span className="text-green-600 flex text-2xl"><IndianRupee /> {totalPrice.toFixed(2)}</span>
@@ -88,11 +92,14 @@ function CartPage() {
               <ShoppingCart size={20} className="mr-2" /> Checkout
             </button>
           </div>
+          </div>
         </div>
       ) : (
         <p className="text-center mt-6">Your cart is empty.</p>
       )}
     </div>
+    <Footer/>
+    </>
   );
 }
 

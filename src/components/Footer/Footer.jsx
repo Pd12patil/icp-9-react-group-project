@@ -40,6 +40,7 @@ const Footer = () => {
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
             <Instagram className="w-[50px] h-[50px] rounded-full border-2 p-1 hover:text-pink-500" />
           </a>
+        
         </div>
 
         <div className="flex justify-center space-x-6 text-lg">
