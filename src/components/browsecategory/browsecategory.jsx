@@ -45,7 +45,7 @@ export default BrowseCategories;
 
 import { useState, useEffect, useRef } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
-import { useNavigate } from "react-router-dom"; // Import useNavigate for redirection
+import { useNavigate } from "react-router-dom"; 
 
 const categories = [
   { name: "Staples", path: "/staples" },
@@ -71,9 +71,9 @@ const categories = [
 const BrowseCategories = () => {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
-  const navigate = useNavigate(); // Hook for navigation
+  const navigate = useNavigate(); 
 
-  // Handle click outside to close dropdown
+ 
   useEffect(() => {
     function handleClickOutside(event) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -102,7 +102,7 @@ const BrowseCategories = () => {
               className="px-4 py-2 text-gray-700 cursor-pointer hover:bg-gray-100 rounded-md transition-all"
               onClick={() => {
                 navigate(category.path);
-                setIsOpen(false); // Close dropdown after click
+                setIsOpen(false); 
               }}
             >
               {category.name}

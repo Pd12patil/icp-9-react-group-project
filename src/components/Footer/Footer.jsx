@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
 
         <div className="flex justify-center space-x-6 text-lg">
-          <Link to={"/about"} className="hover:underline">ok</Link>
+          <Link to={"/about"} className="hover:underline">home</Link>
           <a href="/about" className="hover:underline">About Us</a>
           <a href="/privacy" className="hover:underline">Privacy Policy</a>
           <a href="/contact" className="hover:underline">Contact</a>

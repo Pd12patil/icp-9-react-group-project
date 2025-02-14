@@ -3,7 +3,7 @@ import why1 from "./../../assets/aboutimg/img1whychose.webp";
 import why2 from "./../../assets/aboutimg/img1whychose2.webp";
 import why3 from "./../../assets/aboutimg/img1whychose3.webp";
 import Footer from "./../../components/Footer/Footer";
-
+import { Link } from 'react-router';
 import React, { useState, useEffect, useCallback } from "react";
 import { FaArrowUp, FaWhatsapp } from "react-icons/fa";
 import Navbar from "./../../components/Navbar/navbar1";
@@ -39,7 +39,7 @@ const About = () => {
         
 
         <nav className="text-sm text-gray-500 mb-4">
-          <span className="text-green-700 cursor-pointer hover:underline">Home</span> &gt; <span className="font-semibold">About Us</span>
+          <a   href="/" className="text-green-700 cursor-pointer hover:underline text-lg">Home</a> &gt; <a href="/about" className="font-semibold text-lg">About Us</a>
         </nav>
 
         <div className="flex flex-col md:flex-row items-center gap-10">
