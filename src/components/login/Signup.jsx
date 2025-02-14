@@ -5,6 +5,7 @@ import Apptext from './Apptext.jsx';
 import './Signup.css';
 import Navbar from '../Navbar/Navbar.jsx';
 import Footer from '../Footer/Footer.jsx';
+import { Link } from 'react-router';
 
 const Signup = () => {
   const [firstName, setFirstName] = useState('');
@@ -110,7 +111,7 @@ const Signup = () => {
       </form>
 
       <p className="login-text">
-        Already have an account? <a href="/login">Login now</a>
+        Already have an account? <Link to="/login">Login now</Link>
       </p>
 
       <Toaster />
