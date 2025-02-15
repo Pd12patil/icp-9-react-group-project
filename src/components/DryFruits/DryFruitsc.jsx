@@ -4,9 +4,10 @@ import Navbar from "../Navbar/Navbar";
 import DryFruitsCard from "./DryFruitsCard"
 import DryFruitsData from "../../config/dryfruits.json"; // Your JSON file
 import { IndianRupee, ShoppingCart, Plus, Minus } from "lucide-react";
+
 // import { Toaster } from 'react-hot-toast';
 
-function StaplesC() {
+function DryFruitsC() {
 
   const getCartFromLocalStorage = () => {
     const storedCart = localStorage.getItem('cart');
@@ -39,7 +40,7 @@ function StaplesC() {
     <div>
       <Navbar cartCount={cart.length} />
 
-      <h1 className="text-4xl py-4 font-bold ml-10">Staples</h1>
+      <h1 className="text-4xl py-4 font-bold ml-10">Dry Fruits</h1>
       <div className="flex flex-wrap justify-center">
         {DryFruitsData.map((item) => {
           const { id, name, pimage, price, newprice, description } = item;
@@ -58,8 +59,9 @@ function StaplesC() {
         })}
       </div>
       <Toaster/>
+      
     </div>
   );
 }
 
-export default StaplesC;
+export default DryFruitsC;

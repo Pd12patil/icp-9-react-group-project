@@ -14,7 +14,7 @@ import Login from './components/login/Login.jsx';
 import Signup from './components/login/Signup.jsx';
 import CartPage from './components/CartPage/CartPage.jsx';
 import CheckoutPage from './components/CheckoutPage/CheckoutPage.jsx';
-
+import Products from './views/Product/Products.jsx';
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
   //   <App />
@@ -23,6 +23,7 @@ createRoot(document.getElementById('root')).render(
   <Routes>
     <Route path="/" element={<App/>}/>
     <Route path="/about" element={<About/>}/>
+    <Route path="/products" element={<Products/>}/>
     <Route path="/blog" element={<Blog/>}/>
     <Route path="/staplesc" element={<StaplesC/>}/>
     <Route path="/oilsc" element={<OilsC/>}/>

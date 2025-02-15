@@ -8,6 +8,10 @@ const headerdata = [{
     name: "About"
   }, 
   {
+    to: "/products",
+    name: "Products"
+  },
+  {
     to: "/blog",
     name: "Blog"
   },
