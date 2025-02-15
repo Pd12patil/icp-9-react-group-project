@@ -1,0 +1,74 @@
+[
+    {
+        "id": 701,
+        "name": "Kodbale",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Moringa_powder_200gms.jpg?v=1738228841&width=1000",
+        "price": "125.00",
+        "newprice": "106.00",
+        "description": "Kodbale, also known as Ring Murukku, is a famous South Indian savoury snack. Prepared using traditional methods, it boasts the perfect balance of crunch and spice. Made from premium, organic"
+    },
+    {
+        "id": 702,
+        "name": "Masala Puffed Rice With Garlic",
+        "pimage": "https://organicmandya.com/cdn/shop/files/MasalaPuffedRiceWithGarlic_1.jpg?v=1719571259&width=1000",
+        "price": "105.00",
+        "newprice": "89.00",
+        "description": "Delight in the zesty flavor of Masala Puffed Rice with Garlic, a savory snack that's perfect for any time of day. Our masala puffed rice is infused with aromatic spices"
+    },
+    {
+        "id": 703,
+        "name": "Puffed Rice",
+        "pimage": "https://organicmandya.com/cdn/shop/files/PuffedRice.jpg?v=1720076054&width=1000",
+        "price": "50.00",
+        "newprice": "43.00",
+        "description": "Puffed Rice, also known as Murmura, Puffed Rice Murmura, Popped Rice, or Mandakki, is a light and airy grain known for its crisp texture and versatility. Made by puffing rice.,"
+    },
+    {
+        "id": 704,
+        "name": "Millet Murukku",
+        "pimage": "https://organicmandya.com/cdn/shop/files/IMG_8072.jpg?v=1737537418&width=1000",
+        "price": "85.00",
+        "newprice": "78.00",
+        "description": "Savour the authentic taste of tradition with Millet Murukku, a delicious and healthy snack made from the goodness of organic millets. This crunchy treat is expertly crafted using a traditional recipe."
+    },
+    {
+        "id": 705,
+        "name": "Moringa Powder",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Moringa_powder_200gms.jpg?v=1738228841&width=1000",
+        "price": "125.00",
+        "newprice": "106.00",
+        "description": "Moringa Powder is a nutrient-rich superfood that offers a wide range of health benefits. Also known as Moringa Oleifera Powder or Drumstick Powder, this green powder is made from the"
+    },
+    {
+        "id": 706,
+        "name": "Millet Thengolu",
+        "pimage": "https://organicmandya.com/cdn/shop/files/IMG_8069.jpg?v=1737530973&width=1000",
+        "price": "85.00",
+        "newprice": "72.00",
+        "description": "Indulge in the wholesome goodness of Millet Thengolu, a delightful snack made with the finest organic millets. Crafted from a traditional recipe, this crispy treat is the perfect blend of taste and health."
+    },
+    {
+        "id": 707,
+        "name": "Red Chilli Masala Puffed Rice (200g)",
+        "pimage": "https://organicmandya.com/cdn/shop/files/RedChilliMasalaPuffedRice.jpg?v=1724319292&width=1000",
+        "price": "99.00",
+        "newprice": "84.00",
+        "description": "Red Chilli Masala Puffed Rice, also known as Red Chilli Masala Murmura, is a flavorful and crunchy snack that combines the light, airy texture of puffed rice with a bold, spicy kick."
+    },
+    {
+        "id": 708,
+        "name": "Chinthamani Peanuts",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Chinthanmani_Peanut_1.jpg?v=1726808038&width=1000",
+        "price": "125.00",
+        "newprice": "106.00",
+        "description": "Introducing Chinthamani Peanuts, a savoury snack crafted using premium graded peanuts and a blend of traditional Indian spices. These spicy Chinthamani Kadlebeeja are roasted to perfection using cold-pressed oil, ensuring"
+    },
+    {
+        "id": 709,
+        "name": "Millet Kodubale",
+        "pimage": "https://organicmandya.com/cdn/shop/files/MilletKodubale.jpg?v=1737537928&width=1000",
+        "price": "85.00",
+        "newprice": "72.00",
+        "description": "Experience the irresistible crunch of Millet Kodubale, a savoury ring-shaped snack made with the wholesome goodness of organic millets. Inspired by a traditional recipe, this beloved delicacy brings the authentic taste"
+    }   
+]

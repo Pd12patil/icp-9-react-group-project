@@ -1,0 +1,42 @@
+[
+    {
+        "id": 801,
+        "name": "Castor Oil",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Castor_Oil_v2_4a522e11-6de4-45dc-9e4e-3244a9ab7bc7.jpg?v=1720597225&width=1000",
+        "price": "120.00",
+        "newprice": "102.00",
+        "description": "Castor Oil, also known as Arandi Ka Tel, is a versatile and natural oil derived from the seeds of the castor plant. Renowned for its numerous health and beauty benefits, this oil is rich in essential nutrients and offers a wide range of therapeutic properties."
+    },
+    {
+        "id": 802,
+        "name": "Organic Multani Mitti",
+        "pimage": "https://organicmandya.com/cdn/shop/files/multani_Mitti.jpg?v=1738228883&width=1000",
+        "price": "145.00",
+        "newprice": "123.00",
+        "description": "Discover the timeless beauty secret of Multani Mitti, a natural multani mitti powder renowned for its deep-cleansing and rejuvenating properties. Derived from pure, mineral-rich clay, this traditional skincare ingredient has been used for centuries to enhance skin health and radiance."
+    },
+    {
+        "id": 803,
+        "name": "Pure Neem-Wood Hair Comb Double Tooth",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Comb.jpg?v=1725012008&width=1000",
+        "price": "265.00",
+        "newprice": "225.00",
+        "description": "Our Pure Neem Wooden Hair Comb is made from 100% neem wood for a healthier hair care routine. Neem wood is known for its antibacterial properties, which help reduce dandruff and promote healthy hair growth. This double-tooth comb is perfect for detangling and styling hair."
+    },
+    {
+        "id": 804,
+        "name": "Eucalyptus Oil",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Eucalyptus_oil_V1.jpg?v=1739275796&width=1000",
+        "price": "345.00",
+        "newprice": "293.00",
+        "description": "Reap the refreshing and invigorating properties of Eucalyptus Oil, a versatile essential oil derived from the leaves of the eucalyptus tree. Known for its crisp, clean aroma, Eucalyptus Oil is a popular choice for aromatherapy and natural wellness."
+    },
+    {
+        "id": 805,
+        "name": "Pure Neem-Wood Hair Comb Narrow Tooth",
+        "pimage": "https://organicmandya.com/cdn/shop/files/HandleComb.jpg?v=1725011998&width=1000",
+        "price": "210.00",
+        "newprice": "178.00",
+        "description": "Our Pure Neem Wooden Hair Comb is made from 100% neem wood for a healthier hair care routine. Neem wood is known for its antibacterial properties, which help reduce dandruff, hair fall, and other scalp issues. This narrow-tooth comb is gentle on the scalp and hair, making it ideal for daily use."
+    }
+]

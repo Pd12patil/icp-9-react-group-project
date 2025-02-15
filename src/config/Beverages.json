@@ -1,0 +1,59 @@
+[
+    {
+        "id": 601,
+        "name": "Organic Moringa Powder",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Moringa_powder_200gms.jpg?v=1738228841&width=1000",
+        "price": "220.00",
+        "newprice": "187.00",
+        "description": "Discover the power of Moringa Powder, a nutrient-dense superfood made from 100% organic moringa leaves. This premium moringa leaf powder is meticulously processed to retain all its natural goodness, offering"
+    },
+    {
+        "id": 602,
+        "name": "Organic Popped Ragi Milk - Instant Drink",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Popped_Ragi_Milk_Instant_Drink_Pckt.jpg?v=1720701022&width=1000",
+        "price": "135.00",
+        "newprice": "114.00",
+        "description": "Introducing Popped Ragi Instant Drink, a wholesome and flavorful beverage designed for convenience and health. Made from premium-quality popped ragi (finger millet), this instant mix is a rich source of"
+    },
+    {
+        "id": 603,
+        "name": "Organic Coffee Powder",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Coffee_powder.jpg?v=1738134527&width=1000",
+        "price": "135.00",
+        "newprice": "114.00",
+        "description": "Arabica coffee powder is a finely ground blend of high-quality Arabica beans, traditionally roasted to a medium-dark level, offering a rich and aromatic flavor profile. Renowned for its distinctive taste.,"
+    },
+    {
+        "id": 604,
+        "name": "Organic Ragi Hurihittu",
+        "pimage": "https://organicmandya.com/cdn/shop/files/RagiHurihittu_356421b0-7d96-4b16-ae3d-ad4104508aad.jpg?v=1719571504&width=1000",
+        "price": "175.00",
+        "newprice": "148.00",
+        "description": "Experience the wholesome goodness of our Organic Ragi Huri Hittu, a versatile and nutritious flour made from sprouted and roasted finger millet. Also known as Ragi Hittu, this flour is  rich in essential nutrients and offers numerous health benefits."
+    },
+    {
+        "id": 605,
+        "name": "Organic Special Ragi Malt",
+        "pimage": "https://organicmandya.com/cdn/shop/files/SpecialRagiMalt.jpg?v=1719571664&width=1000",
+        "price": "170.00",
+        "newprice": "144.00",
+        "description": "Explore the wholesome goodness of our Special Ragi Malt, a premium blend crafted from 100% pure ragi for a nutritious boost. Our ragi malt powder is made from carefully processed ragi grains, offering a rich source of essential nutrients and energy."
+    },
+    {
+        "id": 606,
+        "name": "Organic Millet Badam Milk - Instant Drink",
+        "pimage": "https://organicmandya.com/cdn/shop/files/HealthyMilletBadamMix.jpg?v=1724326871&width=1000",
+        "price": "165.00",
+        "newprice": "140.00",
+        "description": "Millet Badam Milk is a delicious and nutritious beverage that combines the wholesome goodness of millet with the rich flavor of almonds. Made from finely ground millet grains."
+    },
+   
+    {
+        "id": 607,
+        "name": "Organic Ragi Malt",
+        "pimage": "https://organicmandya.com/cdn/shop/files/SpecialRagiMalt.jpg?v=1719571664&width=1000",
+        "price": "110.00",
+        "newprice": "94.00",
+        "description": "Ragi Malt, also known as Ragi Satva, Ragi Java, or Ragi Porridge, is a nutritious and versatile beverage made from finely ground finger millet. Renowned for its rich, earthy flavor and numerous health benefits, this ragi malt powder is a popular choice for a wholesome breakfast or snack."
+    }
+]

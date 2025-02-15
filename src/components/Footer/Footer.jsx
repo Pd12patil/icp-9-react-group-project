@@ -1,5 +1,5 @@
 import React from 'react';
-import re from "./../../assets/green-organic.png"
+import re from "./../../assets/iconfotter.png"
 import { Facebook, Twitter, Instagram } from 'lucide-react'; // Import social media icons from lucide-react
 import { Link } from 'react-router';
 const Footer = () => {

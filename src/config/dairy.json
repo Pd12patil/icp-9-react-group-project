@@ -1,0 +1,74 @@
+[
+    {
+        "id": 401,
+        "name": "A2 Paneer High protein-Low fat paneer",
+        "pimage": "https://organicmandya.com/cdn/shop/files/HighProteinPaneer_Front_1_920c080b-0bfc-47e1-9830-18701035ff2d.png?v=1720596709&width=1000",
+        "price": "160.00",
+        "newprice": "140.00",
+        "description": "Discover the perfect balance of taste and nutrition with our A2 Paneer High Protein - Low Fat. Made from the finest A2 milk, this paneer is an excellent source of"
+    },
+    {
+        "id": 402,
+        "name": "Eggs-Nati",
+        "pimage": "https://organicmandya.com/cdn/shop/files/30_Eggs_Fram.jpg?v=1725011893&width=533",
+        "price": "180.00",
+        "newprice": "153.00",
+        "description": "Discover the wholesome goodness of Nati Eggs, a premium choice for those seeking the best in organic eggs. These desi eggs are sourced from free-range hens raised in natural environments"
+    },
+    {
+        "id": 403,
+        "name": "A2 Desi Cow milk",
+        "pimage": "https://organicmandya.com/cdn/shop/files/FrontMatte_V1_bfe2c424-b427-4ac0-859c-b280a26d7a33.png?v=1720596716&width=533",
+        "price": "45.00",
+        "newprice": "45.00",
+        "description": "Indulge in the wholesome goodness of A2 Desi Cow’s Milk, a superior choice for health-conscious individuals. This desi cow’s milk, sourced from indigenous A2 cows, offers a pure and natural,"
+    },
+    {
+        "id": 404,
+        "name": "A2 Desi Cow Ghee",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Ghee_700ml_8075f77f-344b-4f70-b6ce-78a313dc37ca.png?v=1720596896&width=533",
+        "price": "695.00",
+        "newprice": "556.00",
+        "description": "Explore the rich, authentic taste and numerous health benefits of our A2 Desi Cow’s Ghee. Made from the milk of indigenous Indian cows, this ghee is not only a staple"
+    },
+    {
+        "id": 405,
+        "name": "A2 Desi Butter",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Butter_ecaf25fb-fa04-4245-b7df-493e4d28ac29.jpg?v=1737014131&width=1000",
+        "price": "175.00",
+        "newprice": "159.00",
+        "description": "Experience the rich, authentic taste of Organic Mandya A2 Desi Butter, crafted using traditional methods. This pure cow butter, also known as makhan, is made from the milk of A2"
+    },
+    {
+        "id": 406,
+        "name": "A2 Low Fat Curd",
+        "pimage": "https://organicmandya.com/cdn/shop/files/LowFatCurd_Front_1_59ebba4a-fe29-48c1-8b7e-fc2e6b0bd9d2.png?v=1720596704&width=1000",
+        "price": "50.00",
+        "newprice": "43.00",
+        "description": "Discover the light and healthy goodness of A2 Desi Cow’s Milk transformed into Organic Low Fat Curd. This low fat dahi is crafted from the pure, nutrient-rich milk of A2"
+    },
+    {
+        "id": 407,
+        "name": "A2 Desi Set Curd",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Set_Curd_Front_1_ef400c06-c3a9-4e80-b538-b9b6f949fa7b.png?v=1720596755&width=1000",
+        "price": "98.00",
+        "newprice": "83.00",
+        "description": "Savor the creamy richness of Organic A2 Set Curd, a premium dairy product made from the pure milk of A2 cows. This A2 curd, also known as dahi, is a traditional"
+    },
+    {
+        "id": 408,
+        "name": "A2 Malai Paneer",
+        "pimage": "https://organicmandya.com/cdn/shop/files/MalaiPaneerFront.jpg?v=1719569066&width=1000",
+        "price": "180.00",
+        "newprice": "162.00",
+        "description": "Indulge in the rich and creamy delight of Organic A2 Malai Paneer, a premium variety of Indian cottage cheese. This paneer malai is crafted from the pure milk of A2"
+    },
+    {
+        "id": 409,
+        "name": "A2 Kalakand (Milk Peda)r",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Kalakand.jpg?v=1725020733&width=1000",
+        "price": "270.00",
+        "newprice": "229.00",
+        "description": "Delight your senses with the rich and creamy taste of our A2 Kalakand (Milk Peda), a classic Indian sweet that promises to tantalize your taste buds. Made from pure A2"
+    }
+]

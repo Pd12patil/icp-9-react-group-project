@@ -1,19 +1,79 @@
 [
     {
         "id": 301,
-        "name": "Cashew Nuts",
-        "pimage": "https://organicmandya.com/cdn/shop/files/Cashew_Nuts.jpg?v=1738127330&width=1000",
-        "price": "205.00",
-        "newprice": "174.25 ",
-        "description": "ndulge in the rich, creamy flavor of our premium Cashew Nuts, also known as Kaju. Sourced from the finest farms, our cashews are carefully selected to ensure the highest quality"
+        "name": "Organic Pumpkin Seed",
+        "pimage": "https://organicmandya.com/cdn/shop/files/pumpkin_seeds.jpg?v=1738222342&width=1000",
+        "price": "132.00",
+        "newprice": "112.00",
+        "description": "Pumpkin Seeds, also known as Pepitas, are nutritious, crunchy seeds harvested from pumpkins. These seeds are packed with essential nutrients, including protein, healthy fats, fiber, vitamins, and minerals such as magnesium, zinc, and iron. Organic pumpkin seeds are grown without the use of synthetic pesticides or fertilizers, ensuring they are pure and wholesome."
+
     },
     {
         "id": 302,
-        "name": "Organic Raisins",
+        "name": "Organic Sunflower Seeds",
         "pimage": "https://organicmandya.com/cdn/shop/files/Raisins_a693e78c-5a92-4ecf-9e1d-4078c2bbad9d.jpg?v=1738219565&width=1000",
-        "price": "100.00",
-        "newprice": "85.00",
-        "description": "Discover the natural sweetness and health benefits of Raisins, also known as Organic Raisins or Kismis. These dried grapes are carefully selected and processed to retain their rich flavor, chewy"
+        "price": "85.00",
+        "newprice": "72.00",
+        "description": "Organic Sunflower Seeds are a delicious and nutritious snack that offers a wealth of health benefits. These seeds are rich in essential nutrients, including protein, healthy fats, fiber, vitamins, and minerals such as vitamin E, magnesium, and selenium. Grown organically, these sunflower seeds are free from synthetic pesticides and fertilizers, ensuring they are pure and wholesome."
+    },
+    {
+        "id": 303,
+        "name": "Organic Kalonji Seeds",
+        "pimage": "https://organicmandya.com/cdn/shop/files/KalonjiSeeds.jpg?v=1724310999&width=1000",
+        "price": "90.00",
+        "newprice": "76.50",
+        "description": "Explore the unique flavor and health benefits of Kalonji Seeds, also known as nigella seeds or kappu jeerige. These tiny, black seeds are packed with a distinctive, slightly bitter taste and are used in various culinary traditions. Organic Kalonji Seeds are grown without the use of synthetic pesticides or fertilizers, ensuring they are pure and wholesome."
+    },
+    {
+        "id": 304,
+        "name": "Organic White Sesame",
+        "pimage": "https://organicmandya.com/cdn/shop/files/White_Sesame.jpg?v=1738128622&width=1000",
+        "price": "80.00",
+        "newprice": "68.00 ",
+        "description": "White Sesame, also known as White Til or White Sesame Seeds, is a highly versatile and nutritious ingredient used in various culinary traditions. Organic White Sesame Seeds are grown without the use of synthetic pesticides or fertilizers, ensuring they are pure and wholesome. These seeds are rich in essential nutrients, including protein, healthy fats, fiber, vitamins, and minerals such as calcium, iron, and magnesium."
+    },
+    {
+        "id": 305,
+        "name": "Organic Niger Seeds",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Niger_seeds_2.jpg?v=1738228516&width=1000",
+        "price": "60.00",
+        "newprice": "51.00 ",
+        "description": "Introducing Niger Seeds, also known as Uchellu, Ramtil, and Guizotia Abyssinica, a versatile and nutrient-rich ingredient for a healthy diet. Sourced from the finest crops, these tiny seeds are known ."
+    },
+   
+    {
+        "id": 306,
+        "name": "Organic Quinoa Seed",
+        "pimage": "https://organicmandya.com/cdn/shop/files/quinoa_seeds.jpg?v=1738222198&width=1000",
+        "price": "299.00",
+        "newprice": "254.00 ",
+        "description": "Quinoa Seeds, often referred to as a superfood, are a highly nutritious and versatile grain that enhances any diet. Known for their excellent protein profile, these tiny seeds contain all nine essential amino acids, making them a complete protein source. Organic Quinoa Seeds are grown without the use of synthetic pesticides or fertilizers, ensuring they are pure and wholesome."
+    },
+    {
+        "id": 307,
+        "name": "Organic Flax seeds",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Flax_seeds_200gms.jpg?v=1738145875&width=1000",
+        "price": "84.00",
+        "newprice": "71.00 ",
+        "description": "Organic Flax Seeds, also known as alsi seeds, are a powerhouse of nutrition packed into tiny, golden-brown seeds. Rich in essential fatty acids, particularly omega-3s, these seeds are excellent for heart health, digestion, and overall well-being. Grown organically, these flax seeds are free from synthetic pesticides and fertilizers, ensuring they are pure and wholesome."
+    },
+    {
+        "id": 308,
+        "name": "Organic Khaskhas",
+        "pimage": "https://organicmandya.com/cdn/shop/files/KhasKhas_2.jpg?v=1738055825&width=1000",
+        "price": "175.00",
+        "newprice": "148.00 ",
+        "description": "Discover the delicate, nutty flavor of Organic Khaskhas, also known as poppy seeds, which bring a unique taste and texture to your culinary creations. Sourced from organically cultivated poppy plants ."
+    },
+    {
+        "id": 309,
+        "name": "Organic Chia Seeds",
+        "pimage": "https://organicmandya.com/cdn/shop/files/chiaseeds_1.jpg?v=1738126265&width=1000",
+        "price": "285.00",
+        "newprice": "242.00 ",
+        "description": "Discover the remarkable health benefits of our Organic Chia Seeds, a powerhouse of nutrition packed into tiny, versatile seeds. Sourced from premium organic farms, these chia seeds are known for their excellent protein, fiber, and omega-3 fatty acid content. Grown organically, these seeds are free from synthetic pesticides and fertilizers, ensuring they are pure and wholesome."
+
+    
     },
     {
         "id": 303,
@@ -30,5 +90,6 @@
         "price": "275.00",
         "newprice": "233.00",
         "description": "Walnuts, also known as Akhrot, are a delicious and nutritious nut recognized for their distinctive shape and rich, buttery flavor. Organic walnuts are grown without the use of synthetic pesticides"
+
     }
 ]

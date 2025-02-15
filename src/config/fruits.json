@@ -1,0 +1,74 @@
+[
+    {
+        "id": 501,
+        "name": "Organic Lady's Finger(Bhindhi)",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Lady_sFinger_Bhendi.jpg?v=1721374932&width=533",
+        "price": "24.00",
+        "newprice": "24.00",
+        "description": "Organic Lady's Finger, also known as Bhindi, Bendekai, or Okra, is a popular vegetable known for its slender, elongated pods and distinct flavor. Grown organically, these fresh green pods are rich in essential nutrients and offer numerous health benefits."
+    },
+    {
+        "id": 502,
+        "name": "Organic palak leaves",
+        "pimage": "https://organicmandya.com/cdn/shop/files/PalakLeaves.jpg?v=1721375181&width=533",
+        "price": "40.00",
+        "newprice": "40.00",
+        "description": "Discover the rich, nutrient-dense benefits of Palak Leaves, also known as Palakura Leaves. This leafy green vegetable is celebrated for its vibrant color, tender texture, and mild, slightly earthy flavor. Grown organically, these fresh leaves are a rich source of essential nutrients and offer numerous health benefits."
+    },
+    {
+        "id": 503,
+        "name": "Organic Tomato Nati",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Tomatoes.jpg?v=1721375635&width=533",
+        "price": "28.00",
+        "newprice": "28.00",
+        "description": "Experience the authentic taste and exceptional quality of Organic Nati Tomato, also known as Nati Tomato. This heirloom variety is prized for its rich, robust flavor and vibrant red color.,"
+    },
+    {
+        "id": 504,
+        "name": "Organic carrot ooty",
+        "pimage": "https://organicmandya.com/cdn/shop/files/OotyCarrot.jpg?v=1721371505&width=533",
+        "price": "88.00",
+        "newprice": "88.00",
+        "description": "Organic Carrot, is renowned for its exceptional quality and flavor. Grown in the pristine, high-altitude environment of Ooty, these carrots are celebrated for their vibrant orange color, crisp texture, and sweet, earthy flavor. Rich in essential nutrients, these fresh carrots offer numerous health benefits."
+    },
+    {
+        "id": 505,
+        "name": "Organic Beans (Hurulikayi)",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Beans_Hurulikayi.jpg?v=1721370274&width=1000",
+        "price": "29.00",
+        "newprice": "29.00",
+        "description": "Our Organic Beans (Hurulikayi) are a versatile and nutritious legume that adds both flavor and health benefits to your meals. These beans are cultivated organically, ensuring a pure and wholesome"
+    },
+    {
+        "id": 506,
+        "name": "Organic Coriander Leaves",
+        "pimage": "https://organicmandya.com/cdn/shop/files/CorianderLeaves.jpg?v=1721374526&width=1000",
+        "price": "35.00",
+        "newprice": "35.00",
+        "description": "Organic Coriander Leaves, also known as Cilantro Leaves or Kotthambari, are a vibrant and aromatic herb used to enhance the flavor and appearance of a variety of dishes. Organically grown, these fresh"
+    },
+    {
+        "id": 507,
+        "name": "Organic Menthya Leaves",
+        "pimage": "https://organicmandya.com/cdn/shop/files/MenthyaLeaves.jpg?v=1721375066&width=1000",
+        "price": "45.00",
+        "newprice": "45.00",
+        "description": "Elevate your culinary creations with Organic Menthya Leaves, also known as Fenugreek Leaves or Methi Leaves. This aromatic, nutrient-rich herb is celebrated for its distinctive flavor and versatile uses in Indian cuisine. Grown organically, these fresh leaves are a rich source of essential nutrients and offer numerous health benefits."
+    },
+    {
+        "id": 508,
+        "name": "Organic Broccoli",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Broccoli.jpg?v=1721371046&width=1000",
+        "price": "70.00",
+        "newprice": "70.00",
+        "description": "Organic Broccoli, also known as Kosugadde, is a highly nutritious and versatile vegetable celebrated for its vibrant green color and crisp texture. This cruciferous vegetable is organically grown, ensuring it is free from harmful chemicals and pesticides. Rich in essential nutrients, fresh broccoli offers numerous health benefits."
+    },
+    {
+        "id": 509,
+        "name": "Organic Potato",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Potato.jpg?v=1721375270&width=1000",
+        "price": "47.00",
+        "newprice": "47.00",
+        "description": "Discover the versatility and comfort of the Organic Potato, also known as Alugadde. This staple tuber is cherished worldwide for its mild, starchy flavor and adaptability in numerous culinary applications. Grown organically, these fresh potatoes are free from harmful chemicals and pesticides, ensuring a pure and wholesome product."
+    }
+]
