@@ -66,7 +66,6 @@ To set up this project locally, follow these steps:
    ```bash
    cd green-organic-farm
 
-
 3. **Install dependencies using Vite:**:
 
     ```bash
