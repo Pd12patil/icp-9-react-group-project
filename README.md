@@ -1,7 +1,8 @@
 # Green Organic Farm
 
-Green Organic Farm is a modern e-commerce platform that provides organic products including staples, oils, dry fruits, and more. Built with React and Vite, this application provides a seamless shopping experience with a focus on performance and scalability.
-https://greenorganicfarm.netlify.app/
+Welcome to <b>Green Organic Farm</b> is a modern e-commerce platform that provides organic products including staples, oils, dry fruits, and more. Built with React and Vite, this application provides a seamless shopping experience with a focus on performance and scalability.
+
+### Website link: https://greenorganicfarm.netlify.app/
 
 
 ## Table of Contents
@@ -107,9 +108,6 @@ For production builds, run:
 
 
 ---
-
-
-
- ## Visit our website
+## Visit our website
  #### https://greenorganicfarm.netlify.app/
 
