@@ -1,39 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import toast,{Toaster} from 'react-hot-toast';
+import React from 'react';
 import Navbar from "../Navbar/Navbar";
-import SnacksCard from "./SnacksCard";
-import SnacksData from "../../config/snacks.json"; // Your JSON file
-import { IndianRupee, ShoppingCart, Plus, Minus } from "lucide-react";
-// import { Toaster } from 'react-hot-toast';
+import { useCart } from '../ProductCard/useCard'; 
+import ProductCard from '../ProductCard/ProductCard';
+import SnacksData from "../../config/snacks.json";
 
 function SnacksC() {
-
-  const getCartFromLocalStorage = () => {
-    const storedCart = localStorage.getItem('cart');
-    return storedCart ? JSON.parse(storedCart) : [];
-  };
-
-  const [cart, setCart] = useState(getCartFromLocalStorage());
-
-  useEffect(() => {
-    localStorage.setItem('cart', JSON.stringify(cart));
-  }, [cart]);
-
-  const addToCart = (item) => {
-    const existingItem = cart.find(cartItem => cartItem.id === item.id);
-    if (existingItem) {
-
-      setCart(cart.map(cartItem => 
-        cartItem.id === item.id 
-          ? { ...cartItem, quantity: cartItem.quantity + 1 } 
-          : cartItem
-      ));
-      toast.success("Product Added Success");
-    } else {
-
-      setCart([...cart, { ...item, quantity: 1 }]);
-    }
-  };
+  const { cart, addToCart } = useCart(); 
 
   return (
     <div>
@@ -44,7 +16,7 @@ function SnacksC() {
         {SnacksData.map((item) => {
           const { id, name, pimage, price, newprice, description } = item;
           return (
-            <SnacksCard 
+            <ProductCard 
               key={id} 
               id={id} 
               name={name} 
@@ -57,7 +29,6 @@ function SnacksC() {
           );
         })}
       </div>
-      <Toaster/>
     </div>
   );
 }
