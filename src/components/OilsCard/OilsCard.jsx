@@ -1,27 +1,36 @@
 import React from 'react';
-import { IndianRupee } from "lucide-react";
+import Navbar from "../Navbar/Navbar";
+import { useCart } from '../ProductCard/useCard'; // Import the custom hook
+import ProductCard from '../ProductCard/ProductCard'; // Reusable card component
+import oilsData from "../../config/oilsc.json"; // Your JSON file
 
-export default function OilsCard({ id, name, pimage, price, newprice, description, addToCart }) {
+function OilsC() {
+  const { cart, addToCart } = useCart(); // Use the cart hook
+
   return (
-    <div className="md:w-[300px] md:h-auto m-5 py-4 px-6 shadow-lg hover:shadow-xl border border-gray-300 hover:border-gray-400 hover:bg-slate-50 rounded-md cursor-pointer">
-        <img src={pimage} alt={name} className="h-[200px] block mx-auto w-full object-contain md:my-4 md:rounded-lg mix-blend-darken"/>
-        <h1 className='text-xl font-semibold mb-4'>{name}</h1>
-        <div className='flex flex-col'>
-        <del><p className="flex flex-row mb-2"><IndianRupee /><span className='font-bold text-gray-600'>{price}</span></p></del>
-            <p className="flex flex-row text-green-600 bg-green-50"><IndianRupee /><span className='font-bold'>{newprice}</span></p>
-        </div>
-        <button 
-          className="bg-green-950 text-white py-1 px-3 text-xl rounded-lg mt-3"
-          onClick={() => addToCart({ id, name, pimage, price, newprice, description })}
-        >
-          Add to Cart
-        </button>
+    <div>
+      <Navbar cartCount={cart.length} />
+
+      <h1 className="text-4xl py-4 font-bold ml-10">Oils</h1>
+      <div className="flex flex-wrap justify-center">
+        {oilsData.map((item) => {
+          const { id, name, pimage, price, newprice, description } = item;
+          return (
+            <ProductCard 
+              key={id} 
+              id={id} 
+              name={name} 
+              pimage={pimage} 
+              price={price} 
+              newprice={newprice} 
+              description={description}
+              addToCart={addToCart}  
+            />
+          );
+        })}
+      </div>
     </div>
   );
 }
 
-
-
-
-
-
+export default OilsC;
