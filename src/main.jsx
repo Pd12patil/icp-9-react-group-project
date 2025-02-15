@@ -13,6 +13,7 @@ import Login from './components/login/Login.jsx';
 import Signup from './components/login/Signup.jsx';
 import CartPage from './components/CartPage/CartPage.jsx';
 import CheckoutPage from './components/CheckoutPage/CheckoutPage.jsx';
+
 import DairyC from './components/DairyCard/DairyC.jsx';
 import FruitsC from './components/FruitsCard/FruitsC.jsx';
 import BeveragesC from './components/BeveragesCard/BeveragesC.jsx';
@@ -20,6 +21,7 @@ import SnacksC from './components/SnacksCard/SnacksC.jsx';
 import PersonalC from './components/PersonalCard/PersonalC.jsx';
 import HomeC from './components/HomeCard/HomeC.jsx';
 import Products from './views/Product/Products.jsx';
+
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
   //   <App />
