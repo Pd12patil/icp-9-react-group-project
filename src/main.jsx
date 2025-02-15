@@ -1,7 +1,6 @@
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from "react-router";
 import '@fortawesome/fontawesome-free/css/all.css';
-
 import App from './App.jsx';
 import StaplesC from "./components/StaplesCard/StaplesC.jsx";
 import './index.css';
@@ -14,18 +13,13 @@ import Login from './components/login/Login.jsx';
 import Signup from './components/login/Signup.jsx';
 import CartPage from './components/CartPage/CartPage.jsx';
 import CheckoutPage from './components/CheckoutPage/CheckoutPage.jsx';
-<<<<<<< HEAD
-
 import DairyC from './components/DairyCard/DairyC.jsx';
 import FruitsC from './components/FruitsCard/FruitsC.jsx';
 import BeveragesC from './components/BeveragesCard/BeveragesC.jsx';
 import SnacksC from './components/SnacksCard/SnacksC.jsx';
 import PersonalC from './components/PersonalCard/PersonalC.jsx';
 import HomeC from './components/HomeCard/HomeC.jsx';
-
-=======
 import Products from './views/Product/Products.jsx';
->>>>>>> 8455d774e21bd7a666bc51a5c78efc96e8e6ba73
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
   //   <App />

@@ -7,7 +7,7 @@ import { Link } from 'react-router';
 import React, { useState, useEffect, useCallback } from "react";
 import { FaArrowUp, FaWhatsapp } from "react-icons/fa";
 import Navbar from "./../../components/Navbar/navbar1";
-
+import React from "react";
 
 import img1 from "./../../assets/aboutimg/mainimg.webp";
 import img2 from "./../../assets/aboutimg/whoweare.avif";
