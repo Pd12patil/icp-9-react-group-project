@@ -1,7 +1,6 @@
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from "react-router";
 import '@fortawesome/fontawesome-free/css/all.css';
-
 import App from './App.jsx';
 import StaplesC from "./components/StaplesCard/StaplesC.jsx";
 import './index.css';
@@ -14,7 +13,6 @@ import Login from './components/login/Login.jsx';
 import Signup from './components/login/Signup.jsx';
 import CartPage from './components/CartPage/CartPage.jsx';
 import CheckoutPage from './components/CheckoutPage/CheckoutPage.jsx';
-
 
 import DairyC from './components/DairyCard/DairyC.jsx';
 import FruitsC from './components/FruitsCard/FruitsC.jsx';
