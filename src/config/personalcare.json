@@ -30,5 +30,13 @@
         "price": "345.00",
         "newprice": "293.00",
         "description": "Reap the refreshing and invigorating properties of Eucalyptus Oil, a versatile essential oil derived from the leaves of the eucalyptus tree. Known for its crisp, clean aroma, Eucalyptus Oil is a popular choice for aromatherapy and natural wellness."
+    },
+    {
+        "id": 805,
+        "name": "Pure Neem-Wood Hair Comb Narrow Tooth",
+        "pimage": "https://organicmandya.com/cdn/shop/files/HandleComb.jpg?v=1725011998&width=1000",
+        "price": "210.00",
+        "newprice": "178.00",
+        "description": "Our Pure Neem Wooden Hair Comb is made from 100% neem wood for a healthier hair care routine. Neem wood is known for its antibacterial properties, which help reduce dandruff, hair fall, and other scalp issues. This narrow-tooth comb is gentle on the scalp and hair, making it ideal for daily use."
     }
 ]

@@ -4,7 +4,7 @@
         "name": "Cold Pressed - Coconut Oil",
         "pimage": "https://organicmandya.com/cdn/shop/files/Coconut_Oil_V2_r2_568c7721-800b-480b-a633-24499d2fdcd4.jpg?v=1720680463&width=1000",
         "price": "110.00",
-        "newprice": "93.50 for co-Op Members*",
+        "newprice": "93.50 ",
         "description": "Savour the natural goodness of our Cold Pressed Coconut Oil, a pure organic oil that captures the essence of fresh coconuts. Extracted using traditional cold-pressing methods, this coconut oil retains"
     },
     {
@@ -12,7 +12,7 @@
         "name": "Cold Pressed - Groundnut Oil",
         "pimage": "https://organicmandya.com/cdn/shop/files/Groundnut_Oil_V2_v1_1.jpg?v=1728551792&width=1500",
         "price": "493.00",
-        "newprice": "419.05 for co-Op Members*",
+        "newprice": "419.05 ",
         "description": "Embrace the purity and rich flavor of Cold Pressed Groundnut Oil, an excellent choice for health-conscious cooking. Our groundnut oil is extracted using the traditional cold pressing method, ensuring that"
     },
     {
@@ -20,7 +20,7 @@
         "name": "Sunflower Oil - Cold Pressed",
         "pimage": "https://organicmandya.com/cdn/shop/files/Sunflower_Oil_V2_v1_7527748c-12f1-4877-aed9-2a69c6654773.jpg?v=1728552009&width=1000",
         "price": "440.00",
-        "newprice": "374.00 for co-Op Members*",
+        "newprice": "374.00 ",
         "description": "Cold Pressed Sunflower Oil is a pure and natural cooking oil extracted from sunflower seeds using a traditional cold pressing method, which preserves its nutritional integrity and rich flavor. This"
     },
     {
@@ -28,7 +28,48 @@
         "name": "Castor Oil",
         "pimage": "https://organicmandya.com/cdn/shop/files/Castor_Oil_v2_4a522e11-6de4-45dc-9e4e-3244a9ab7bc7.jpg?v=1720597225&width=1000",
         "price": "120.00",
-        "newprice": "102.00 for co-Op Members*",
+        "newprice": "102.00 ",
         "description": "Castor Oil, also known as Arandi Ka Tel, is a versatile and natural oil derived from the seeds of the castor plant. Renowned for its numerous health and beauty benefits,"
+    },
+    {
+        "id": 205,
+        "name": "Mustard Oil",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Mustard_Oil_V1_e90f7cb8-e7d6-4c8e-ab0d-70d26172a81d.jpg?v=1720597061&width=1000",
+        "price": "275.00",
+        "newprice": "223.00 ",
+        "description": "Discover the robust flavor and numerous health benefits of our Organic Mustard Oil, a staple in traditional cooking and Ayurvedic medicine. Sourced from premium organic mustard seeds, this oil is extracted"
+    },
+    {
+        "id": 206,
+        "name": "Eucalyptus Oil",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Eucalyptus_oil_V1.jpg?v=1739275796&width=1000",
+        "price": "345.00",
+        "newprice": "293.00 ",
+        "description": "Reap the refreshing and invigorating properties of Eucalyptus Oil, a versatile essential oil derived from the leaves of the eucalyptus tree. Known for its crisp, clean aroma, Eucalyptus Oil "   
+    },
+    {
+        "id": 207,
+        "name": "Cold Pressed - Olive Oil",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Olive_Oil_1.jpg?v=1725012782&width=1000",
+        "price": "940.00",
+        "newprice": "779.00 ",
+        "description": "Our Organic Cold Pressed Olive Oil is a premium choice for those seeking high-quality, natural oil. Extracted using traditional cold pressing methods, this olive oil retains its rich flavor "   
+    },
+    {
+        "id": 208,
+        "name": "Safflower Oil",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Safflower_Oil_V1_R1.jpg?v=1728551945&width=1000",
+        "price": "132.00",
+        "newprice": "114.00 ",
+        "description": "Safflower Oil, also known as Carthame Oil, Kardi Oil, Kardai Oil, or Kusuma Oil, is a versatile and healthful cooking oil derived from the seeds of the safflower plant. Known for its mild flavor and high smoke point, safflower oil is a popular choice for a variety of culinary applications."   
+    },
+    {
+        "id": 209,
+        "name": "Cold Pressed - Coconut Oil",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Coconut_Oil_V2_r2_568c7721-800b-480b-a633-24499d2fdcd4.jpg?v=1720680463&width=1000",
+        "price": "110.00",
+        "newprice": "93.00 ",
+        "description": "Savour the natural goodness of our Cold Pressed Coconut Oil, a pure organic oil that captures the essence of fresh coconuts. Extracted using traditional cold-pressing methods, this coconut oil retains"   
     }
+
 ]
