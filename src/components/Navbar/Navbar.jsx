@@ -18,6 +18,7 @@ import brandIcon from "./../../assets/iconheader.png"
 import "./Navbar.css"
 import { Menu } from "lucide-react";
 import { ShoppingCart } from 'lucide-react';
+
 function Navbar({ cartCount }) {
   const location = useLocation();
   const [menuActive, setMenuActive] = useState(false);

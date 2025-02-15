@@ -6,6 +6,7 @@
         "price": "132.00",
         "newprice": "112.00",
         "description": "Pumpkin Seeds, also known as Pepitas, are nutritious, crunchy seeds harvested from pumpkins. These seeds are packed with essential nutrients, including protein, healthy fats, fiber, vitamins, and minerals such as magnesium, zinc, and iron. Organic pumpkin seeds are grown without the use of synthetic pesticides or fertilizers, ensuring they are pure and wholesome."
+
     },
     {
         "id": 302,
@@ -71,5 +72,24 @@
         "price": "285.00",
         "newprice": "242.00 ",
         "description": "Discover the remarkable health benefits of our Organic Chia Seeds, a powerhouse of nutrition packed into tiny, versatile seeds. Sourced from premium organic farms, these chia seeds are known for their excellent protein, fiber, and omega-3 fatty acid content. Grown organically, these seeds are free from synthetic pesticides and fertilizers, ensuring they are pure and wholesome."
+
+    
+    },
+    {
+        "id": 303,
+        "name": "Organic Almonds",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Almond_94de8f3d-564f-4d0a-8bf7-5f1bb7bd7019.jpg?v=1738056433&width=1000",
+        "price": "210.00",
+        "newprice": "174.50 ",
+        "description": "Uncover the wholesome benefits of our premium Almonds, also known as badam. These raw almonds are carefully sourced and organically grown to ensure maximum purity and nutritional value. Rich in"
+    },
+    {
+        "id": 304,
+        "name": "Organic Walnut",
+        "pimage": "https://organicmandya.com/cdn/shop/files/walnut_2afc2785-0b14-4ab3-aea9-2bb1bde3e3b8.jpg?v=1738129833&width=1000",
+        "price": "275.00",
+        "newprice": "233.00",
+        "description": "Walnuts, also known as Akhrot, are a delicious and nutritious nut recognized for their distinctive shape and rich, buttery flavor. Organic walnuts are grown without the use of synthetic pesticides"
+
     }
 ]

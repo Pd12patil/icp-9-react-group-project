@@ -69,7 +69,7 @@ function CartPage() {
                   <th className="px-4 py-2 text-left">Price</th>
                   <th className="px-4 py-2 text-left">Quantity</th>
                   <th className="px-4 py-2 text-left">Total</th>
-                  <th className="px-4 py-2 text-left">Actions</th>
+                  <th className="px-4 py-2 text-left">Remove</th>
                 </tr>
               </thead>
               <tbody>
@@ -84,7 +84,7 @@ function CartPage() {
                       {item.name}
                     </td>
                     <td className="px-4 py-2">
-                    <span className="flex"><IndianRupee /> {item.price}</span>
+                    <span className="flex"><IndianRupee /> {item.newprice}</span>
                     </td>
                     <td className="px-4 py-2">
                       <span className="flex">
@@ -125,7 +125,7 @@ function CartPage() {
             
           </div>
         ) : (
-          <p className="text-center mt-6">Your cart is empty.</p>
+          <p className="text-2xl text-center mt-6">Your cart is empty.</p>
         )}
         {/* </div> */}
         {/* Total Price and Checkout Button */}

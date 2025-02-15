@@ -1,7 +1,7 @@
 import React from 'react';
 import re from "./../../assets/iconfotter.png"
 import { Facebook, Twitter, Instagram } from 'lucide-react'; // Import social media icons from lucide-react
-
+import { Link } from 'react-router';
 const Footer = () => {
   return (
     <footer className="relative text-black">
@@ -44,15 +44,17 @@ const Footer = () => {
         </div>
 
         <div className="flex justify-center space-x-6 text-lg">
+          <Link to={"/about"} className="hover:underline">home</Link>
           <a href="/about" className="hover:underline">About Us</a>
           <a href="/privacy" className="hover:underline">Privacy Policy</a>
           <a href="/contact" className="hover:underline">Contact</a>
         </div>
 
         <div className="mt-6 text-sm">
-          <p>&copy; 2025 Your Company. All rights reserved.</p>
+          <p className=" text-lg md:text-2xl">&copy; 2025 Green Organic Farm. All rights reserved.</p>
         </div>
       </div>
+      
     </footer>
   );
 };

@@ -31,13 +31,24 @@ const ImageWithText = ({ imageSrc, text, textColor }) => {
 };
 
 // AdditionalText Component
+// const AdditionalText = ({ text, textColor }) => {
+//   return (
+//     // <div className={`hidden absolute top-40 md:top-35 md:left-30 left-10 right-0 ${textColor}  text-lg md:text-2xl p-4`}>
+//     //   {text}
+//     // </div>
+//     <div className={`hidden md:visible absolute md:top-35 md:left-30 right-0 ${textColor} md:text-2xl p-4`}>
+//     {text}
+//   </div>
+//   );
+// };
 const AdditionalText = ({ text, textColor }) => {
   return (
-    <div className={`absolute top-40 md:top-35 md:left-30 left-10 right-0 ${textColor}  text-lg md:text-2xl p-4`}>
+    <div className={`md:block hidden absolute top-35 left-35 right-0 ${textColor} md:text-2xl p-8`}>
       {text}
     </div>
   );
 };
+
 
 // App Component
 const App = () => {

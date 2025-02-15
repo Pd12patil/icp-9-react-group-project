@@ -14,6 +14,7 @@ import Login from './components/login/Login.jsx';
 import Signup from './components/login/Signup.jsx';
 import CartPage from './components/CartPage/CartPage.jsx';
 import CheckoutPage from './components/CheckoutPage/CheckoutPage.jsx';
+<<<<<<< HEAD
 
 import DairyC from './components/DairyCard/DairyC.jsx';
 import FruitsC from './components/FruitsCard/FruitsC.jsx';
@@ -22,6 +23,9 @@ import SnacksC from './components/SnacksCard/SnacksC.jsx';
 import PersonalC from './components/PersonalCard/PersonalC.jsx';
 import HomeC from './components/HomeCard/HomeC.jsx';
 
+=======
+import Products from './views/Product/Products.jsx';
+>>>>>>> 8455d774e21bd7a666bc51a5c78efc96e8e6ba73
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
   //   <App />
@@ -30,6 +34,7 @@ createRoot(document.getElementById('root')).render(
   <Routes>
     <Route path="/" element={<App/>}/>
     <Route path="/about" element={<About/>}/>
+    <Route path="/products" element={<Products/>}/>
     <Route path="/blog" element={<Blog/>}/>
     <Route path="/staplesc" element={<StaplesC/>}/>
     <Route path="/oilsc" element={<OilsC/>}/>
