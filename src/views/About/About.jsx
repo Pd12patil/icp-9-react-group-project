@@ -214,3 +214,14 @@ We believe in purity, sustainability, and quality, ensuring that every product y
 };
 
 export default About;
+
+
+// import React from 'react'
+
+// function About() {
+//   return (
+//     <div>About</div>
+//   )
+// }
+
+// export default About
