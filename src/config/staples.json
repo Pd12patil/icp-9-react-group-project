@@ -4,7 +4,7 @@
         "name": "Organic Bansi Rava",
         "pimage": "https://organicmandya.com/cdn/shop/files/BansiRava.jpg?v=1719916336&width=940",
         "price": "85.00",
-        "newprice": "72.25 for co-Op Members*",
+        "newprice": "72.25",
         "description": "Discover the wholesome goodness of our Bansi Rava, also known as Bansi Sooji Rava or Semolina Rava. Made from premium-quality durum wheat, this coarse semolina is an essential ingredient in"
     },
     {
@@ -12,7 +12,7 @@
         "name": "Organic Barley Dalia",
         "pimage": "https://organicmandya.com/cdn/shop/files/Barley_Dalia_dc32135f-3aea-4404-9f80-a22748ff7169.jpg?v=1720597314&width=1000",
         "price": "125.00",
-        "newprice": "106.25 for co-Op Members*",
+        "newprice": "106.25",
         "description": "Discover the wholesome goodness of Barley Dalia, a nutritious choice for a healthy diet. Also known as barley ka daliya or jau ka daliya, this versatile ingredient is made from"
     },
     {
@@ -20,7 +20,7 @@
         "name": "Organic Barley Flour",
         "pimage": "https://organicmandya.com/cdn/shop/files/Barley_Flour_1fa14cbd-14fc-4f60-b280-493b86d8b520.jpg?v=1720597277&width=1000",
         "price": "132.00",
-        "newprice": "112.20 for co-Op Members*",
+        "newprice": "112.20 ",
         "description": "Enjoy the wholesome goodness of our Barley Flour, also known as Jau Flour or Barley Atta. Made from premium organic barley, this flour is a nutritious alternative to conventional flours,"
     },
     {
@@ -28,7 +28,47 @@
         "name": "Organic Basmati Brown Rice",
         "pimage": "https://organicmandya.com/cdn/shop/files/Basmathibrownrice_7f666008-539e-46ab-a2b6-96f63de3ce53.jpg?v=1718730849&width=1000",
         "price": "260.00",
-        "newprice": "221.00 for co-Op Members*",
+        "newprice": "221.00",
         "description": "Relish the exquisite taste and reap the health benefits of our Basmati Brown Rice, often referred to as Perfect Brown Basmati Rice. This premium rice is sourced from the finest"
+    },
+    {
+        "id": 105,
+        "name": "Organic Chana Besan",
+        "pimage": "https://organicmandya.com/cdn/shop/files/ChannaBesan_25d76779-7192-478b-bbd1-68bd20f1f837.jpg?v=1719079576&width=1000",
+        "price": "144.00",
+        "newprice": "119.00",
+        "description": "Our Chana Besan Flour is a high-quality ingredient made from 100% chana dal. Also known as besan chana flour or gram flour, this versatile product is a staple in Indian cuisine"
+    },
+    {
+        "id": 106,
+        "name": "Organic Black Rice",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Blackrice_1.jpg?v=1738064868&width=1000",
+        "price": "295.00",
+        "newprice": "250.00",
+        "description": "Black Rice is a highly nutritious and unique grain known for its striking dark colour and rich flavour. This ancient grain is packed with antioxidants, particularly anthocyanins, which give it its deep hue"
+    },
+    {
+        "id": 107,
+        "name": "Organic Jave Wheat Flour",
+        "pimage": "https://organicmandya.com/cdn/shop/files/JaveWheatFlour_2_c2ca8a27-32d5-4412-a521-0ff1abdb5cc4.jpg?v=1719129417&width=1000",
+        "price": "260.00",
+        "newprice": "221.00",
+        "description": "ave Wheat Flour, also known as Jave Godhi Atta, is a high-quality flour made from carefully selected wheat grains. This flour is known for its fine texture and excellent baking properties"
+    },
+    {
+        "id": 108,
+        "name": "Organic Diabetic Rice",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Diabiticrice_cfa393b2-e822-47a0-931c-f0f860cba8cd.jpg?v=1719081530&width=1000",
+        "price": "155.00",
+        "newprice": "131.00 ",
+        "description": "Introducing Diabetic Rice, the perfect choice for those managing blood sugar levels while enjoying delicious meals. This low glycemic rice is specifically designed to provide a slower, steadier release of glucose into the bloodstream"
+    },
+    {
+        "id": 109,
+        "name": "Organic Idli Rice Rava",
+        "pimage": "https://organicmandya.com/cdn/shop/files/IdliRava.jpg?v=1719904896&width=1000",
+        "price": "75.00",
+        "newprice": "63.00",
+        "description": "Elevate your South Indian cooking with Idli Rice Rava, the perfect ingredient for making soft, fluffy idlis and other traditional dishes. Also known as idli suji, this finely ground rice rava"
     }
 ]
