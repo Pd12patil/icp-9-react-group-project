@@ -1,0 +1,34 @@
+[
+    {
+        "id": 901,
+        "name": "Organic Sambrani Dhoop Cups - 12pcs Set",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Sambrani.jpg?v=1726832239&width=1000",
+        "price": "145.00",
+        "newprice": "123.00",
+        "description": "Elevate your mood with the soothing aroma of our Sambrani Dhoop Cups, made to bring tranquility and positivity to your living spaces. This 12-piece set is designed for easy use and long-lasting fragrance, making it perfect for daily rituals and special occasions."
+    },
+    {
+        "id": 902,
+        "name": "Agarbatti - 7 Herbs",
+        "pimage": "https://organicmandya.com/cdn/shop/files/SevenHerbs.jpg?v=1729141995&width=1000",
+        "price": "145.00",
+        "newprice": "123.00",
+        "description": "Experience the harmonious synergy of our 7 Herbs Natural Handrolled Incense Sticks. This unique blend harnesses the healing and calming properties of seven carefully selected herbs, each contributing its distinct"
+    },
+    {
+        "id": 903,
+        "name": "Agarbatti - Champaka",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Champaka.jpg?v=1729142539&width=1000",
+        "price": "145.00",
+        "newprice": "123.00",
+        "description": "Discover the classic and enchanting fragrance of our Champaka Natural Handrolled Incense Sticks. Renowned for its sweet, earthy, and slightly floral aroma, Champaka incense is traditionally crafted with natural ingredients to create a calming and uplifting atmosphere."
+    },
+    {
+        "id": 904,
+        "name": "Agarbatti - Wood Spice",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Woodspice.jpg?v=1729141994&width=1000",
+        "price": "145.00",
+        "newprice": "123.00",
+        "description": "Elevate your senses with our Wood Spice Natural Handrolled Incense Sticks. This exquisite blend combines the robust essence of natural wood with the subtle sweetness of exotic spices, creating a warm and inviting ambiance in your home."
+    }
+]

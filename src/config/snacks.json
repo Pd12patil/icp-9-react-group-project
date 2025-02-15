@@ -1,0 +1,34 @@
+[
+    {
+        "id": 701,
+        "name": "Kodbale",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Moringa_powder_200gms.jpg?v=1738228841&width=1000",
+        "price": "125.00",
+        "newprice": "106.00",
+        "description": "Kodbale, also known as Ring Murukku, is a famous South Indian savoury snack. Prepared using traditional methods, it boasts the perfect balance of crunch and spice. Made from premium, organic"
+    },
+    {
+        "id": 702,
+        "name": "Masala Puffed Rice With Garlic",
+        "pimage": "https://organicmandya.com/cdn/shop/files/MasalaPuffedRiceWithGarlic_1.jpg?v=1719571259&width=1000",
+        "price": "105.00",
+        "newprice": "89.00",
+        "description": "Delight in the zesty flavor of Masala Puffed Rice with Garlic, a savory snack that's perfect for any time of day. Our masala puffed rice is infused with aromatic spices"
+    },
+    {
+        "id": 703,
+        "name": "Puffed Rice",
+        "pimage": "https://organicmandya.com/cdn/shop/files/PuffedRice.jpg?v=1720076054&width=1000",
+        "price": "50.00",
+        "newprice": "43.00",
+        "description": "Puffed Rice, also known as Murmura, Puffed Rice Murmura, Popped Rice, or Mandakki, is a light and airy grain known for its crisp texture and versatility. Made by puffing rice.,"
+    },
+    {
+        "id": 704,
+        "name": "Millet Murukku",
+        "pimage": "https://organicmandya.com/cdn/shop/files/IMG_8072.jpg?v=1737537418&width=1000",
+        "price": "85.00",
+        "newprice": "78.00",
+        "description": "Savour the authentic taste of tradition with Millet Murukku, a delicious and healthy snack made from the goodness of organic millets. This crunchy treat is expertly crafted using a traditional recipe."
+    }
+]

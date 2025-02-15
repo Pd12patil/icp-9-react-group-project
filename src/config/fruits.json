@@ -1,0 +1,34 @@
+[
+    {
+        "id": 501,
+        "name": "Organic Lady's Finger(Bhindhi)",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Lady_sFinger_Bhendi.jpg?v=1721374932&width=533",
+        "price": "24.00",
+        "newprice": "24.00",
+        "description": "Organic Lady's Finger, also known as Bhindi, Bendekai, or Okra, is a popular vegetable known for its slender, elongated pods and distinct flavor. Grown organically, these fresh green pods are rich in essential nutrients and offer numerous health benefits."
+    },
+    {
+        "id": 502,
+        "name": "Organic palak leaves",
+        "pimage": "https://organicmandya.com/cdn/shop/files/PalakLeaves.jpg?v=1721375181&width=533",
+        "price": "40.00",
+        "newprice": "40.00",
+        "description": "Discover the rich, nutrient-dense benefits of Palak Leaves, also known as Palakura Leaves. This leafy green vegetable is celebrated for its vibrant color, tender texture, and mild, slightly earthy flavor. Grown organically, these fresh leaves are a rich source of essential nutrients and offer numerous health benefits."
+    },
+    {
+        "id": 503,
+        "name": "Organic Tomato Nati",
+        "pimage": "https://organicmandya.com/cdn/shop/files/Tomatoes.jpg?v=1721375635&width=533",
+        "price": "28.00",
+        "newprice": "28.00",
+        "description": "Experience the authentic taste and exceptional quality of Organic Nati Tomato, also known as Nati Tomato. This heirloom variety is prized for its rich, robust flavor and vibrant red color.,"
+    },
+    {
+        "id": 504,
+        "name": "Organic carrot ooty",
+        "pimage": "https://organicmandya.com/cdn/shop/files/OotyCarrot.jpg?v=1721371505&width=533",
+        "price": "88.00",
+        "newprice": "88.00",
+        "description": "Organic Carrot, is renowned for its exceptional quality and flavor. Grown in the pristine, high-altitude environment of Ooty, these carrots are celebrated for their vibrant orange color, crisp texture, and sweet, earthy flavor. Rich in essential nutrients, these fresh carrots offer numerous health benefits."
+    }
+]
