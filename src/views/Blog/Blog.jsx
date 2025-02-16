@@ -4,6 +4,8 @@ import iconheader from "./../../assets/iconheader.png"
 import mainimg from "../../assets/aboutimg/mainimg.webp"
 import bg1 from "../../assets/bg1.webp"
 import bg2 from "../../assets/bg1.webp"
+import Footer from '../../components/Footer/Footer';
+
 function Blog() {
   const [isSubscribed, setIsSubscribed] = useState(false);
   const [name, setName] = useState('');
@@ -317,6 +319,7 @@ function Blog() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }

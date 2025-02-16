@@ -6,7 +6,8 @@ import Footer from "./../../components/Footer/Footer";
 import { Link } from 'react-router';
 import React, { useState, useEffect, useCallback } from "react";
 import { FaArrowUp, FaWhatsapp } from "react-icons/fa";
-import Navbar from "./../../components/Navbar/navbar1";
+// import Navbar from "./../../components/Navbar/navbar1";
+import Navbar from "./../../components/Navbar/Navbar";
 /*import React from "react";*/
 
 import img1 from "./../../assets/aboutimg/mainimg.webp";
@@ -39,7 +40,7 @@ const About = () => {
         
 
         <nav className="text-sm text-gray-500 mb-4">
-          <a   href="/" className="text-green-700 cursor-pointer hover:underline text-lg">Home</a> &gt; <a href="/about" className="font-semibold text-lg">About Us</a>
+          <Link to="/" className="text-green-700 cursor-pointer hover:underline text-lg">Home</Link> &gt; <Link to="/products" className="font-semibold text-lg">Products</Link>
         </nav>
 
         <div className="flex flex-col md:flex-row items-center gap-10">
