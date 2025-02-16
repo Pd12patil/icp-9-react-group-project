@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
-
-
 
 function Blog() {
   const [isSubscribed, setIsSubscribed] = useState(false);
@@ -9,6 +7,8 @@ function Blog() {
   const [email, setEmail] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const newsletterRef = useRef(null);  // Create a ref for the newsletter section
 
   const slideshowImages = [
     'src/assets/bg1.webp',
@@ -46,7 +46,8 @@ function Blog() {
   const inputStyle = (isError) => ({
     padding: '10px',
     fontSize: '16px',
-    width: '300px',
+    width: '100%',
+    maxWidth: '300px',
     margin: '10px 0',
     borderRadius: '8px',
     border: isError ? '2px solid red' : '1px solid #ccc',
@@ -67,12 +68,7 @@ function Blog() {
           />
         </div>
 
-        <h1 style={{
-          fontWeight: 'bold',
-          fontFamily: 'Times New Roman',
-          color: 'black',
-          fontSize: '25px',
-        }}>
+        <h1 style={{ fontWeight: 'bold', fontFamily: 'Times New Roman', color: 'black', fontSize: '25px' }}>
           Green Organic Farm
         </h1>
 
@@ -85,7 +81,7 @@ function Blog() {
         </p>
 
         <button
-          onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}
+          onClick={() => newsletterRef.current.scrollIntoView({ behavior: 'smooth' })}
           style={{
             padding: '10px 20px',
             fontSize: '18px',
@@ -96,7 +92,7 @@ function Blog() {
             color: 'white',
             border: 'none',
             borderRadius: '12px',
-            marginTop: '20px'
+            marginTop: '20px',
           }}
         >
           Subscribe to Newsletter
@@ -120,7 +116,7 @@ function Blog() {
 
         <div className="card-container" style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(3, 1fr)',
+          gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
           gap: '20px',
           marginTop: '40px',
           justifyItems: 'center',
@@ -156,13 +152,12 @@ function Blog() {
                   border: '1px solid #ccc',
                   borderRadius: '10px',
                   backgroundColor: 'white',
-                  width: '350px',
                   textAlign: 'center',
                   padding: '0',
                   overflow: 'hidden',
                   height: '380px',
-                  margin: '10px',
-                  position: 'relative'
+                  position: 'relative',
+                  maxWidth: '300px',
                 }}
               >
                 <img
@@ -171,7 +166,7 @@ function Blog() {
                   style={{
                     width: '100%',
                     height: '250px',
-                    objectFit: 'cover'
+                    objectFit: 'cover',
                   }}
                 />
 
@@ -205,7 +200,7 @@ function Blog() {
           })}
         </div>
 
-        <div style={{ marginTop: '60px' }}>
+        <div ref={newsletterRef} style={{ marginTop: '60px' }}>
           <h2 style={{ fontSize: '25px', fontFamily: 'Times New Roman' }}>Our Newsletter</h2>
           <p style={{ fontSize: '18px', fontFamily: 'Times New Roman', maxWidth: '600px', margin: '0 auto' }}>
             Stay up to date with the latest news, articles, and updates from Green Organic Farm. Subscribe to our newsletter for more!
@@ -246,7 +241,7 @@ function Blog() {
                 color: 'white',
                 border: 'none',
                 borderRadius: '12px',
-                marginTop: '20px'
+                marginTop: '20px',
               }}
             >
               Subscribe
@@ -258,62 +253,64 @@ function Blog() {
               Important insights are sent to your email.
             </div>
           )}
+        </div>
 
-          {/* Mission Section with Coral Background on Left Side */}
+        {/* Mission Section with Coral Background on Left Side */}
+        <div style={{
+          marginTop: '40px',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          height: 'auto',
+          flexWrap: 'wrap',
+        }}>
           <div style={{
-            marginTop: '40px',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'flex-start',
-            height: '400px', // Increased height
+            padding: '40px',
+            width: '100%',
+            maxWidth: '500px',
+            height: 'auto',
+            borderRadius: '10px 0 0 10px',
+            color: 'white',
+            textAlign: 'center',
+            backgroundColor: 'coral',
           }}>
-            <div style={{
-              
-              padding: '40px',
-              width: '50%',
-              height:'300px',
-              borderRadius: '10px 0 0 10px',
-              color: 'white',
-              textAlign: 'left',
+            <img
+              src="src/assets/iconheader.png" // Path to your logo
+              alt="Mission Logo"
+              style={{
+                width: '90px',
+                height: '90px',
+                marginBottom: '20px',
+              }}
+            />
+            <p style={{
+              fontSize: '20px',
+              fontWeight: 'bold',
+              marginTop: '10px',
+              color: 'black',
+              fontFamily: 'Times New Roman',
             }}>
-              <img
-                src="src/assets/iconheader.png" // Path to your logo
-                alt="Mission Logo"
-                style={{
-                  width: '90px',
-                  height: '90px',
-                  marginLeft: '170px', // Removed margin from left side
-                }}
-              />
-              <p style={{
-                fontSize: '20px',
-                fontWeight: 'bold',
-                marginTop: '10px',
-                color: 'black',
-                fontFamily: 'Times New Roman',
-              }}>
               "Dedicated to fostering health and wellbeing for all, empowering individuals to live their best lives through sustainable and holistic practices."
-              </p>
-            </div>
+            </p>
+          </div>
 
-            <div style={{
-              width: '50%',
-              padding: '0 20px',
-              marginLeft: '5px', // Giving a small left margin
-              textAlign: 'right', // Aligning to the right side
-            }}>
-              <img
-                src="src/assets/aboutimg/mainimg.webp" // Path to your image
-                alt="Mission Image"
-                style={{
-                  width: '350px',
-                  height: '350px',
-                  borderRadius: '8px',
-                  marginTop: '20px', // Optional margin top for better spacing
-                  marginLeft: '100px', // Adding 5px margin to the left side of the image
-                }}
-              />
-            </div>
+          {/* Image on the right */}
+          <div style={{
+            width: '100%',
+            maxWidth: '400px',
+            padding: '20px',
+            textAlign: 'center',
+          }}>
+            <img
+              src="src/assets/aboutimg/mainimg.webp" // Path to your image
+              alt="Mission Image"
+              style={{
+                width: '100%',
+                height: 'auto',
+                borderRadius: '8px',
+              }}
+            />
           </div>
         </div>
       </div>
