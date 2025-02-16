@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
-
+import iconheader from "./../../assets/iconheader.png"
+import mainimg from "../../assets/aboutimg/mainimg.webp"
+import bg1 from "../../assets/bg1.webp"
+import bg2 from "../../assets/bg1.webp"
 function Blog() {
   const [isSubscribed, setIsSubscribed] = useState(false);
   const [name, setName] = useState('');
@@ -11,8 +14,8 @@ function Blog() {
   const newsletterRef = useRef(null);  // Create a ref for the newsletter section
 
   const slideshowImages = [
-    'src/assets/bg1.webp',
-    'src/assets/bg2.webp',
+    bg1,
+    bg2
   ];
 
   const nextImage = () => {
@@ -62,7 +65,7 @@ function Blog() {
       <div className="blog-container" style={{ textAlign: 'center', padding: '20px', backgroundColor: '#F4F5EC' }}>
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
           <img
-            src="src/assets/iconheader.png"
+            src={iconheader}
             alt="Logo"
             style={{ width: '120px', height: 'auto' }}
           />
@@ -303,7 +306,7 @@ function Blog() {
             textAlign: 'center',
           }}>
             <img
-              src="src/assets/aboutimg/mainimg.webp" // Path to your image
+              src={mainimg} // Path to your image
               alt="Mission Image"
               style={{
                 width: '100%',
