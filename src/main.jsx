@@ -22,6 +22,9 @@ import PersonalC from './components/PersonalCard/PersonalC.jsx';
 import HomeC from './components/HomeCard/HomeC.jsx';
 import Products from './views/Product/Products.jsx';
 
+
+import ProductPreview from './components/ProductCard/ProductPreview.jsx';
+
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
   //   <App />
@@ -46,6 +49,7 @@ createRoot(document.getElementById('root')).render(
     <Route path="/snacksc" element={<SnacksC/>}/>
     <Route path="/personal" element={<PersonalC/>}/>
     <Route path="/home" element={<HomeC/>}/>
+    <Route path="/productpreview/:id" element={<ProductPreview/>}/>
   </Routes>
   </BrowserRouter>
 )

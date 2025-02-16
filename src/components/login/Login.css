@@ -192,7 +192,8 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     font-size: 1.5rem;
-    background: #022748;
+    background: rgb(0, 68, 0);
+    /* background: #022748; */
     /* background: #012747; */
     /* background: #5f41e4; */
     margin-top: 2.19rem;
@@ -203,7 +204,8 @@
 .login-form .login-button:hover {
     /* background: #4320df; */
     /* background: #24394d; */
-    background-color: #14446d;
+    /* background-color: #14446d; */
+    background: rgb(0, 46, 0);
 }
 
 .login-container .signup-text {
