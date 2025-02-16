@@ -16,6 +16,14 @@ import img3 from "./../../assets/aboutimg/whoweare2.jpg";
 
 
 const About = () => {
+
+  const getCartFromLocalStorage = () => {
+    const storedCart = localStorage.getItem('cart');
+    return storedCart ? JSON.parse(storedCart) : [];
+  };
+
+  const [cart, setCart] = useState(getCartFromLocalStorage());
+
  
   const [showScroll, setShowScroll] = useState(false);
 
@@ -33,7 +41,7 @@ const About = () => {
 
   return (
     <div>
-      <Navbar />
+      <Navbar cartCount={cart.length}/>
 
       <div className=" px-6 py-10 bg-gray-100 md:px-16 lg:px-24">
         
