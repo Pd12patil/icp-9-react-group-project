@@ -279,7 +279,7 @@ function Blog() {
             backgroundColor: 'coral',
           }}>
             <img
-              src="src/assets/iconheader.png" // Path to your logo
+              src={iconheader} // Path to your logo
               alt="Mission Logo"
               style={{
                 width: '90px',
