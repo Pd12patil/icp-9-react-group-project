@@ -1,5 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
+import iconheader from "./../../assets/iconheader.png"
+import mainimg from "../../assets/aboutimg/mainimg.webp"
+import bg1 from "../../assets/bg1.webp"
+import bg2 from "../../assets/bg1.webp"
+import Footer from '../../components/Footer/Footer';
 
 function Blog() {
   const [isSubscribed, setIsSubscribed] = useState(false);
@@ -11,8 +16,8 @@ function Blog() {
   const newsletterRef = useRef(null);  // Create a ref for the newsletter section
 
   const slideshowImages = [
-    'src/assets/bg1.webp',
-    'src/assets/bg2.webp',
+    bg1,
+    bg2
   ];
 
   const nextImage = () => {
@@ -56,14 +61,22 @@ function Blog() {
     textAlign: 'center',
   });
 
+  const getCartFromLocalStorage = () => {
+    const storedCart = localStorage.getItem('cart');
+    return storedCart ? JSON.parse(storedCart) : [];
+  };
+
+  const [cart, setCart] = useState(getCartFromLocalStorage());
+
+
   return (
     <>
-      <Navbar />
+      <Navbar cartCount={cart.length}/>
 
       <div className="blog-container" style={{ textAlign: 'center', padding: '20px', backgroundColor: '#F4F5EC' }}>
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
           <img
-            src="src/assets/iconheader.png"
+            src={iconheader}
             alt="Logo"
             style={{ width: '120px', height: 'auto' }}
           />
@@ -281,7 +294,7 @@ function Blog() {
             flexDirection: 'column',
           }}>
             <img
-              src="src/assets/iconheader.png" // Path to your logo
+              src={iconheader} // Path to your logo
               alt="Mission Logo"
               style={{
                 width: '90px',
@@ -308,7 +321,7 @@ function Blog() {
             textAlign: 'center',
           }}>
             <img
-              src="src/assets/aboutimg/mainimg.webp" // Path to your image
+              src={mainimg} // Path to your image
               alt="Mission Image"
               style={{
                 width: '100%',
@@ -319,29 +332,6 @@ function Blog() {
           </div>
         </div>
       </div>
-
-      <style jsx>{`
-        @media (max-width: 768px) {
-          .mission-section {
-            flex-direction: column;
-          }
-
-          .mission-text {
-            margin-left: 0;
-            padding: 30px;
-          }
-
-          .mission-logo {
-            margin-left: auto;
-            margin-right: auto;
-          }
-
-          .mission-img {
-            width: 100%;
-            margin-top: 20px;
-          }
-        }
-      `}</style>
     </>
   );
 }

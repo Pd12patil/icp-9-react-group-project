@@ -59,9 +59,17 @@ const Login = () => {
     }
   }, []);
 
+  const getCartFromLocalStorage = () => {
+    const storedCart = localStorage.getItem('cart');
+    return storedCart ? JSON.parse(storedCart) : [];
+  };
+
+  const [cart, setCart] = useState(getCartFromLocalStorage());
+
+
   return (
     <>
-    <Navbar/>
+    <Navbar cartCount={cart.length}/>
     <div className="login-container">
       <h2 className="form-title">Log In</h2>
 

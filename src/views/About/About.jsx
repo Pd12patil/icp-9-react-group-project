@@ -6,7 +6,8 @@ import Footer from "./../../components/Footer/Footer";
 import { Link } from 'react-router';
 import React, { useState, useEffect, useCallback } from "react";
 import { FaArrowUp, FaWhatsapp } from "react-icons/fa";
-import Navbar from "./../../components/Navbar/navbar1";
+// import Navbar from "./../../components/Navbar/navbar1";
+import Navbar from "./../../components/Navbar/Navbar";
 /*import React from "react";*/
 
 import img1 from "./../../assets/aboutimg/mainimg.webp";
@@ -15,6 +16,14 @@ import img3 from "./../../assets/aboutimg/whoweare2.jpg";
 
 
 const About = () => {
+
+  const getCartFromLocalStorage = () => {
+    const storedCart = localStorage.getItem('cart');
+    return storedCart ? JSON.parse(storedCart) : [];
+  };
+
+  const [cart, setCart] = useState(getCartFromLocalStorage());
+
  
   const [showScroll, setShowScroll] = useState(false);
 
@@ -32,14 +41,14 @@ const About = () => {
 
   return (
     <div>
-      <Navbar />
+      <Navbar cartCount={cart.length}/>
 
       <div className=" px-6 py-10 bg-gray-100 md:px-16 lg:px-24">
         
         
 
         <nav className="text-sm text-gray-500 mb-4">
-          <a   href="/" className="text-green-700 cursor-pointer hover:underline text-lg">Home</a> &gt; <a href="/about" className="font-semibold text-lg">About Us</a>
+          <Link to="/" className="text-green-700 cursor-pointer hover:underline text-lg">Home</Link> &gt; <Link to="/products" className="font-semibold text-lg">Products</Link>
         </nav>
 
         <div className="flex flex-col md:flex-row items-center gap-10">
