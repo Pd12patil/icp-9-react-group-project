@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="relative text-black mt-15">
       
       <video
-        className="absolute top-0 left-0 h-[500px] md:h-[760px]  object-cover z-[-1]"
+        className="absolute top-0 left-0 h-[800px] md:h-[760px]  object-cover z-[-1]"
         autoPlay
         loop
         muted
@@ -60,7 +60,7 @@ const Footer = () => {
         </div>
 
        
-        <div className="flex flex-col justify-center space-x-6 text-lg">
+        <div className="flex flex-col justify-center space-x-6 text-lg md:ml-8">
           <h1 className="text-2xl mb-2">Our Products</h1>
           <Link to={"/staplesc"} className="hover:underline">Staples</Link>
           <Link to="/oilsc" className="hover:underline">Oils</Link>
@@ -71,7 +71,7 @@ const Footer = () => {
 
         </div>
 
-        <div className="mt-6 text-sm">
+        <div className="mt-6 text-sm text-center">
           <p className=" text-lg md:text-2xl">&copy; 2025 Green Organic Farm. All rights reserved.</p>
         </div>
       </div>
