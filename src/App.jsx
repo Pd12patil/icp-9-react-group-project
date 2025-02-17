@@ -100,7 +100,7 @@ const App = () => {
 
   return (
     <>
-      <Navbar cartCount={cart.length}/>
+      <Navbar cartcount={cart.length}/>
       <div className='flex flex-col items-center relative'>
         {/* Image with text */}
         <ImageWithText

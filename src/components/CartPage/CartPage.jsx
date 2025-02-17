@@ -53,7 +53,7 @@ function CartPage() {
 
   return (
     <>
-      <Navbar cartCount={cart.length} />
+      <Navbar cartcount={cart.length} />
       <h2 className="mt-5 mb-8 text-4xl font-semibold text-center">Your Cart</h2>
 
       <div className="1max-w-6xl 1mx-auto p-4 flex flex-wrap justify-around">

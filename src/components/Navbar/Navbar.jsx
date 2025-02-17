@@ -19,7 +19,7 @@ import "./Navbar.css"
 import { Menu } from "lucide-react";
 import { ShoppingCart } from 'lucide-react';
 
-function Navbar({ cartCount }) {
+function Navbar({ cartcount }) {
   const location = useLocation();
   const [menuActive, setMenuActive] = useState(false);
 
@@ -58,7 +58,7 @@ function Navbar({ cartCount }) {
             <Link to="/cart">
           {/* <span className="">{cartCount}</span> */}
           <span className='flex text-2xl text-gray-400'>
-          <ShoppingCart cartCount={cartCount} size={40} color={'#999999'} className='ml-12 md:ml-0'  />{cartCount}</span>
+          <ShoppingCart cartcount={cartcount} size={40} color={'#999999'} className='ml-12 md:ml-0'  />{cartcount}</span>
         </Link>
           </ul>
           {/* <nav className="bg-green-950 text-white p-4 flex justify-between items-center"> */}

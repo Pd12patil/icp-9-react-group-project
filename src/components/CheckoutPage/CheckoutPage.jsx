@@ -53,7 +53,7 @@ function CheckoutPage() {
 
   return (
     <>
-      <Navbar cartCount={cart.length} />
+      <Navbar cartcount={cart.length} />
       <div className="max-w-6xl mx-auto p-4">
         <h2 className="mt-5 text-4xl font-semibold text-center">Checkout</h2>
 

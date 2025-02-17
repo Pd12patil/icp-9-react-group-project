@@ -60,7 +60,7 @@ const Signup = () => {
 
   return (
     <>
-    <Navbar cartCount={cart.length}/>
+    <Navbar cartcount={cart.length}/>
     <div className="signup-container">
       <h2 className="form-title">Sign Up</h2>
 

@@ -122,7 +122,7 @@ const ProductPreview = () => {
 
   return (
     <>
-      <Navbar cartCount={cart.length}/>
+      <Navbar cartcount={cart.length}/>
       <div className="container1 mx-auto flex flex-wrap justify-around p-5 max-w-screen-xl">
         <img 
           src={productData?.pimage} 

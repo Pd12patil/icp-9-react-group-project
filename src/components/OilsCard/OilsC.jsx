@@ -9,7 +9,7 @@ function OilsC() {
 
   return (
     <div>
-      <Navbar cartCount={cart.length} />
+      <Navbar cartcount={cart.length} />
 
       <h1 className="text-4xl py-4 font-bold ml-10">Oils</h1>
       <div className="flex flex-wrap justify-center">

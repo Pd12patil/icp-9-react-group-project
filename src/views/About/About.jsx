@@ -41,7 +41,7 @@ const About = () => {
 
   return (
     <div>
-      <Navbar cartCount={cart.length}/>
+      <Navbar cartcount={cart.length}/>
 
       <div className=" px-6 py-10 bg-gray-100 md:px-16 lg:px-24">
         

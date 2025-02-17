@@ -69,7 +69,7 @@ const Login = () => {
 
   return (
     <>
-    <Navbar cartCount={cart.length}/>
+    <Navbar cartcount={cart.length}/>
     <div className="login-container">
       <h2 className="form-title">Log In</h2>
 

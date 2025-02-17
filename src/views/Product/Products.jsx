@@ -15,7 +15,7 @@ function Products() {
     
   return (
     <div>
-        <Navbar cartCount={cart.length}/>
+        <Navbar cartcount={cart.length}/>
         <StaplesC/>
         <OilsC/>
         <DryFruitsC/>

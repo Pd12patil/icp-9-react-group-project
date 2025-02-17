@@ -70,7 +70,7 @@ function Blog() {
 
   return (
     <>
-      <Navbar cartCount={cart.length}/>
+      <Navbar cartcount={cart.length}/>
 
       <div className="blog-container" style={{ textAlign: 'center', padding: '20px', backgroundColor: '#F4F5EC' }}>
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
