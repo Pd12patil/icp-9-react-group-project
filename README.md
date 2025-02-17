@@ -102,9 +102,7 @@ For production builds, run:
 ---
 
 
-#  <a href="https://github.com/Pd12patil/icp-9-react-group-project/graphs/contributors">
-#   <img src="https://contrib.rocks/image?repo=Pd12patil/icp-9-react-group-project" />
-# </a>
+
 
 
 ---
