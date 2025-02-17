@@ -25,7 +25,8 @@ function Blog() {
   }, []);
 
   const handleSubscribe = () => {
-    if (!name || !email) {
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!name || !email || !emailRegex.test(email)) {
       setErrorMessage('Please enter your valid details');
     } else {
       setIsSubscribed(true);
@@ -209,7 +210,7 @@ function Blog() {
           <div style={{ marginTop: '40px' }}>
             <input
               type="text"
-              placeholder={name === '' ? 'Please enter your details' : 'Enter your name'}
+              placeholder={name === '' ? 'Enter your name' : 'Enter your name'}
               value={name}
               onChange={(e) => setName(e.target.value)}
               style={inputStyle(errorMessage)}
@@ -217,7 +218,7 @@ function Blog() {
             <div>
               <input
                 type="email"
-                placeholder={email === '' ? 'Please enter your details' : 'Enter your email'}
+                placeholder={email === '' ? 'Enter your Email id' : 'Enter your Email id'}
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 style={inputStyle(errorMessage)}
@@ -274,6 +275,10 @@ function Blog() {
             color: 'white',
             textAlign: 'center',
             backgroundColor: 'coral',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            flexDirection: 'column',
           }}>
             <img
               src="src/assets/iconheader.png" // Path to your logo
@@ -314,6 +319,29 @@ function Blog() {
           </div>
         </div>
       </div>
+
+      <style jsx>{`
+        @media (max-width: 768px) {
+          .mission-section {
+            flex-direction: column;
+          }
+
+          .mission-text {
+            margin-left: 0;
+            padding: 30px;
+          }
+
+          .mission-logo {
+            margin-left: auto;
+            margin-right: auto;
+          }
+
+          .mission-img {
+            width: 100%;
+            margin-top: 20px;
+          }
+        }
+      `}</style>
     </>
   );
 }
