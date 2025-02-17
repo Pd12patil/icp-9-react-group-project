@@ -18,7 +18,7 @@ const Footer = () => {
 
       <div className="absolute top-0 left-0 bg-black opacity-50 z-[-1]"></div>
 
-      <div className="container px-8 relative z-10">
+      <div className="container pl-8 relative z-10">
 
         <div className="mb-6">
           <Link to="/">
